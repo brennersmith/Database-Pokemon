@@ -1,5 +1,6 @@
 import psycopg2
 import json
+import requests
 
 def create_table():
     #Connect to postgreSQL
@@ -20,7 +21,17 @@ def create_table():
             PokedexNumber SERIAL PRIMARY KEY,
             name VARCHAR(50),
             GenerationID INTEGER
-    );
+        );
+    """
+    
+    create_Pokemon_Type_table ="""
+        CREATE TABLE IF NOT EXISTS pokemon_type(
+            PokedexNumber INTEGER
+            TypeID INTEGER
+            PRIMARY KEY (PokedexNumber, TypeID)
+            FOREIGN KEY (PokedexNumber) REFERENCES Pokemon(PokedexNumber) ON DELETE CASCADE
+            FOREIGN KEY (TypeID) REFERENCES Type(TypeID) ON DELETE CASCADE
+        );
     """
     
     create_Type_table="""
@@ -48,7 +59,7 @@ def create_table():
         cursor.execute(create_Type_table)
         cursor.execute(create_Generation_table)
         cursor.execute(create_Search_table)
-
+        cursor.execute(create_Pokemon_Type_table)
     
         #Commit changes to the database
         conn.commit()
