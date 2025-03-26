@@ -1,0 +1,1303 @@
+Pokedex Number,Name,Types,Generation,Region,Previous Evolution,Evolution
+1,Bulbasaur,"Grass, Poison",Generation-i,Unknown,Bulbasaur,"Ivysaur, Venusaur"
+2,Ivysaur,"Grass, Poison",Generation-i,Unknown,Bulbasaur,"Ivysaur, Venusaur"
+3,Venusaur,"Grass, Poison",Generation-i,Unknown,Bulbasaur,"Ivysaur, Venusaur"
+4,Charmander,Fire,Generation-i,Unknown,Charmander,"Charmeleon, Charizard"
+5,Charmeleon,Fire,Generation-i,Unknown,Charmander,"Charmeleon, Charizard"
+6,Charizard,"Fire, Flying",Generation-i,Unknown,Charmander,"Charmeleon, Charizard"
+7,Squirtle,Water,Generation-i,Unknown,Squirtle,"Wartortle, Blastoise"
+8,Wartortle,Water,Generation-i,Unknown,Squirtle,"Wartortle, Blastoise"
+9,Blastoise,Water,Generation-i,Unknown,Squirtle,"Wartortle, Blastoise"
+10,Caterpie,Bug,Generation-i,Unknown,Caterpie,"Metapod, Butterfree"
+11,Metapod,Bug,Generation-i,Unknown,Caterpie,"Metapod, Butterfree"
+12,Butterfree,"Bug, Flying",Generation-i,Unknown,Caterpie,"Metapod, Butterfree"
+13,Weedle,"Bug, Poison",Generation-i,Unknown,Weedle,"Kakuna, Beedrill"
+14,Kakuna,"Bug, Poison",Generation-i,Unknown,Weedle,"Kakuna, Beedrill"
+15,Beedrill,"Bug, Poison",Generation-i,Unknown,Weedle,"Kakuna, Beedrill"
+16,Pidgey,"Normal, Flying",Generation-i,Unknown,Pidgey,"Pidgeotto, Pidgeot"
+17,Pidgeotto,"Normal, Flying",Generation-i,Unknown,Pidgey,"Pidgeotto, Pidgeot"
+18,Pidgeot,"Normal, Flying",Generation-i,Unknown,Pidgey,"Pidgeotto, Pidgeot"
+19,Rattata,Normal,Generation-i,Unknown,Rattata,Raticate
+20,Raticate,Normal,Generation-i,Unknown,Rattata,Raticate
+21,Spearow,"Normal, Flying",Generation-i,Unknown,Spearow,Fearow
+22,Fearow,"Normal, Flying",Generation-i,Unknown,Spearow,Fearow
+23,Ekans,Poison,Generation-i,Unknown,Ekans,Arbok
+24,Arbok,Poison,Generation-i,Unknown,Ekans,Arbok
+25,Pikachu,Electric,Generation-i,Unknown,Pichu,"Pikachu, Raichu"
+26,Raichu,Electric,Generation-i,Unknown,Pichu,"Pikachu, Raichu"
+27,Sandshrew,Ground,Generation-i,Unknown,Sandshrew,Sandslash
+28,Sandslash,Ground,Generation-i,Unknown,Sandshrew,Sandslash
+29,Nidoran-f,Poison,Generation-i,Unknown,Nidoran-f,"Nidorina, Nidoqueen"
+30,Nidorina,Poison,Generation-i,Unknown,Nidoran-f,"Nidorina, Nidoqueen"
+31,Nidoqueen,"Poison, Ground",Generation-i,Unknown,Nidoran-f,"Nidorina, Nidoqueen"
+32,Nidoran-m,Poison,Generation-i,Unknown,Nidoran-m,"Nidorino, Nidoking"
+33,Nidorino,Poison,Generation-i,Unknown,Nidoran-m,"Nidorino, Nidoking"
+34,Nidoking,"Poison, Ground",Generation-i,Unknown,Nidoran-m,"Nidorino, Nidoking"
+35,Clefairy,Fairy,Generation-i,Unknown,Cleffa,"Clefairy, Clefable"
+36,Clefable,Fairy,Generation-i,Unknown,Cleffa,"Clefairy, Clefable"
+37,Vulpix,Fire,Generation-i,Unknown,Vulpix,Ninetales
+38,Ninetales,Fire,Generation-i,Unknown,Vulpix,Ninetales
+39,Jigglypuff,"Normal, Fairy",Generation-i,Unknown,Igglybuff,"Jigglypuff, Wigglytuff"
+40,Wigglytuff,"Normal, Fairy",Generation-i,Unknown,Igglybuff,"Jigglypuff, Wigglytuff"
+41,Zubat,"Poison, Flying",Generation-i,Unknown,Zubat,"Golbat, Crobat"
+42,Golbat,"Poison, Flying",Generation-i,Unknown,Zubat,"Golbat, Crobat"
+43,Oddish,"Grass, Poison",Generation-i,Unknown,Oddish,"Gloom, Vileplume"
+44,Gloom,"Grass, Poison",Generation-i,Unknown,Oddish,"Gloom, Vileplume"
+45,Vileplume,"Grass, Poison",Generation-i,Unknown,Oddish,"Gloom, Vileplume"
+46,Paras,"Bug, Grass",Generation-i,Unknown,Paras,Parasect
+47,Parasect,"Bug, Grass",Generation-i,Unknown,Paras,Parasect
+48,Venonat,"Bug, Poison",Generation-i,Unknown,Venonat,Venomoth
+49,Venomoth,"Bug, Poison",Generation-i,Unknown,Venonat,Venomoth
+50,Diglett,Ground,Generation-i,Unknown,Diglett,Dugtrio
+51,Dugtrio,Ground,Generation-i,Unknown,Diglett,Dugtrio
+52,Meowth,Normal,Generation-i,Unknown,Meowth,Persian
+53,Persian,Normal,Generation-i,Unknown,Meowth,Persian
+54,Psyduck,Water,Generation-i,Unknown,Psyduck,Golduck
+55,Golduck,Water,Generation-i,Unknown,Psyduck,Golduck
+56,Mankey,Fighting,Generation-i,Unknown,Mankey,"Primeape, Annihilape"
+57,Primeape,Fighting,Generation-i,Unknown,Mankey,"Primeape, Annihilape"
+58,Growlithe,Fire,Generation-i,Unknown,Growlithe,Arcanine
+59,Arcanine,Fire,Generation-i,Unknown,Growlithe,Arcanine
+60,Poliwag,Water,Generation-i,Unknown,Poliwag,"Poliwhirl, Poliwrath"
+61,Poliwhirl,Water,Generation-i,Unknown,Poliwag,"Poliwhirl, Poliwrath"
+62,Poliwrath,"Water, Fighting",Generation-i,Unknown,Poliwag,"Poliwhirl, Poliwrath"
+63,Abra,Psychic,Generation-i,Unknown,Abra,"Kadabra, Alakazam"
+64,Kadabra,Psychic,Generation-i,Unknown,Abra,"Kadabra, Alakazam"
+65,Alakazam,Psychic,Generation-i,Unknown,Abra,"Kadabra, Alakazam"
+66,Machop,Fighting,Generation-i,Unknown,Machop,"Machoke, Machamp"
+67,Machoke,Fighting,Generation-i,Unknown,Machop,"Machoke, Machamp"
+68,Machamp,Fighting,Generation-i,Unknown,Machop,"Machoke, Machamp"
+69,Bellsprout,"Grass, Poison",Generation-i,Unknown,Bellsprout,"Weepinbell, Victreebel"
+70,Weepinbell,"Grass, Poison",Generation-i,Unknown,Bellsprout,"Weepinbell, Victreebel"
+71,Victreebel,"Grass, Poison",Generation-i,Unknown,Bellsprout,"Weepinbell, Victreebel"
+72,Tentacool,"Water, Poison",Generation-i,Unknown,Tentacool,Tentacruel
+73,Tentacruel,"Water, Poison",Generation-i,Unknown,Tentacool,Tentacruel
+74,Geodude,"Rock, Ground",Generation-i,Unknown,Geodude,"Graveler, Golem"
+75,Graveler,"Rock, Ground",Generation-i,Unknown,Geodude,"Graveler, Golem"
+76,Golem,"Rock, Ground",Generation-i,Unknown,Geodude,"Graveler, Golem"
+77,Ponyta,Fire,Generation-i,Unknown,Ponyta,Rapidash
+78,Rapidash,Fire,Generation-i,Unknown,Ponyta,Rapidash
+79,Slowpoke,"Water, Psychic",Generation-i,Unknown,Slowpoke,Slowbro
+80,Slowbro,"Water, Psychic",Generation-i,Unknown,Slowpoke,Slowbro
+81,Magnemite,"Electric, Steel",Generation-i,Unknown,Magnemite,"Magneton, Magnezone"
+82,Magneton,"Electric, Steel",Generation-i,Unknown,Magnemite,"Magneton, Magnezone"
+83,Farfetchd,"Normal, Flying",Generation-i,Unknown,Farfetchd,Sirfetchd
+84,Doduo,"Normal, Flying",Generation-i,Unknown,Doduo,Dodrio
+85,Dodrio,"Normal, Flying",Generation-i,Unknown,Doduo,Dodrio
+86,Seel,Water,Generation-i,Unknown,Seel,Dewgong
+87,Dewgong,"Water, Ice",Generation-i,Unknown,Seel,Dewgong
+88,Grimer,Poison,Generation-i,Unknown,Grimer,Muk
+89,Muk,Poison,Generation-i,Unknown,Grimer,Muk
+90,Shellder,Water,Generation-i,Unknown,Shellder,Cloyster
+91,Cloyster,"Water, Ice",Generation-i,Unknown,Shellder,Cloyster
+92,Gastly,"Ghost, Poison",Generation-i,Unknown,Gastly,"Haunter, Gengar"
+93,Haunter,"Ghost, Poison",Generation-i,Unknown,Gastly,"Haunter, Gengar"
+94,Gengar,"Ghost, Poison",Generation-i,Unknown,Gastly,"Haunter, Gengar"
+95,Onix,"Rock, Ground",Generation-i,Unknown,Onix,Steelix
+96,Drowzee,Psychic,Generation-i,Unknown,Drowzee,Hypno
+97,Hypno,Psychic,Generation-i,Unknown,Drowzee,Hypno
+98,Krabby,Water,Generation-i,Unknown,Krabby,Kingler
+99,Kingler,Water,Generation-i,Unknown,Krabby,Kingler
+100,Voltorb,Electric,Generation-i,Unknown,Voltorb,Electrode
+101,Electrode,Electric,Generation-i,Unknown,Voltorb,Electrode
+102,Exeggcute,"Grass, Psychic",Generation-i,Unknown,Exeggcute,Exeggutor
+103,Exeggutor,"Grass, Psychic",Generation-i,Unknown,Exeggcute,Exeggutor
+104,Cubone,Ground,Generation-i,Unknown,Cubone,Marowak
+105,Marowak,Ground,Generation-i,Unknown,Cubone,Marowak
+106,Hitmonlee,Fighting,Generation-i,Unknown,Tyrogue,Hitmonlee
+107,Hitmonchan,Fighting,Generation-i,Unknown,Tyrogue,Hitmonlee
+108,Lickitung,Normal,Generation-i,Unknown,Lickitung,Lickilicky
+109,Koffing,Poison,Generation-i,Unknown,Koffing,Weezing
+110,Weezing,Poison,Generation-i,Unknown,Koffing,Weezing
+111,Rhyhorn,"Ground, Rock",Generation-i,Unknown,Rhyhorn,"Rhydon, Rhyperior"
+112,Rhydon,"Ground, Rock",Generation-i,Unknown,Rhyhorn,"Rhydon, Rhyperior"
+113,Chansey,Normal,Generation-i,Unknown,Happiny,"Chansey, Blissey"
+114,Tangela,Grass,Generation-i,Unknown,Tangela,Tangrowth
+115,Kangaskhan,Normal,Generation-i,Unknown,None,None
+116,Horsea,Water,Generation-i,Unknown,Horsea,"Seadra, Kingdra"
+117,Seadra,Water,Generation-i,Unknown,Horsea,"Seadra, Kingdra"
+118,Goldeen,Water,Generation-i,Unknown,Goldeen,Seaking
+119,Seaking,Water,Generation-i,Unknown,Goldeen,Seaking
+120,Staryu,Water,Generation-i,Unknown,Staryu,Starmie
+121,Starmie,"Water, Psychic",Generation-i,Unknown,Staryu,Starmie
+122,Mr-mime,"Psychic, Fairy",Generation-i,Unknown,Mime-jr,"Mr-mime, Mr-rime"
+123,Scyther,"Bug, Flying",Generation-i,Unknown,Scyther,Scizor
+124,Jynx,"Ice, Psychic",Generation-i,Unknown,Smoochum,Jynx
+125,Electabuzz,Electric,Generation-i,Unknown,Elekid,"Electabuzz, Electivire"
+126,Magmar,Fire,Generation-i,Unknown,Magby,"Magmar, Magmortar"
+127,Pinsir,Bug,Generation-i,Unknown,None,None
+128,Tauros,Normal,Generation-i,Unknown,None,None
+129,Magikarp,Water,Generation-i,Unknown,Magikarp,Gyarados
+130,Gyarados,"Water, Flying",Generation-i,Unknown,Magikarp,Gyarados
+131,Lapras,"Water, Ice",Generation-i,Unknown,None,None
+132,Ditto,Normal,Generation-i,Unknown,None,None
+133,Eevee,Normal,Generation-i,Unknown,Eevee,Vaporeon
+134,Vaporeon,Water,Generation-i,Unknown,Eevee,Vaporeon
+135,Jolteon,Electric,Generation-i,Unknown,Eevee,Vaporeon
+136,Flareon,Fire,Generation-i,Unknown,Eevee,Vaporeon
+137,Porygon,Normal,Generation-i,Unknown,Porygon,"Porygon2, Porygon-z"
+138,Omanyte,"Rock, Water",Generation-i,Unknown,Omanyte,Omastar
+139,Omastar,"Rock, Water",Generation-i,Unknown,Omanyte,Omastar
+140,Kabuto,"Rock, Water",Generation-i,Unknown,Kabuto,Kabutops
+141,Kabutops,"Rock, Water",Generation-i,Unknown,Kabuto,Kabutops
+142,Aerodactyl,"Rock, Flying",Generation-i,Unknown,None,None
+143,Snorlax,Normal,Generation-i,Unknown,Munchlax,Snorlax
+144,Articuno,"Ice, Flying",Generation-i,Unknown,None,None
+145,Zapdos,"Electric, Flying",Generation-i,Unknown,None,None
+146,Moltres,"Fire, Flying",Generation-i,Unknown,None,None
+147,Dratini,Dragon,Generation-i,Unknown,Dratini,"Dragonair, Dragonite"
+148,Dragonair,Dragon,Generation-i,Unknown,Dratini,"Dragonair, Dragonite"
+149,Dragonite,"Dragon, Flying",Generation-i,Unknown,Dratini,"Dragonair, Dragonite"
+150,Mewtwo,Psychic,Generation-i,Unknown,None,None
+151,Mew,Psychic,Generation-i,Unknown,None,None
+152,Chikorita,Grass,Generation-ii,Unknown,Chikorita,"Bayleef, Meganium"
+153,Bayleef,Grass,Generation-ii,Unknown,Chikorita,"Bayleef, Meganium"
+154,Meganium,Grass,Generation-ii,Unknown,Chikorita,"Bayleef, Meganium"
+155,Cyndaquil,Fire,Generation-ii,Unknown,Cyndaquil,"Quilava, Typhlosion"
+156,Quilava,Fire,Generation-ii,Unknown,Cyndaquil,"Quilava, Typhlosion"
+157,Typhlosion,Fire,Generation-ii,Unknown,Cyndaquil,"Quilava, Typhlosion"
+158,Totodile,Water,Generation-ii,Unknown,Totodile,"Croconaw, Feraligatr"
+159,Croconaw,Water,Generation-ii,Unknown,Totodile,"Croconaw, Feraligatr"
+160,Feraligatr,Water,Generation-ii,Unknown,Totodile,"Croconaw, Feraligatr"
+161,Sentret,Normal,Generation-ii,Unknown,Sentret,Furret
+162,Furret,Normal,Generation-ii,Unknown,Sentret,Furret
+163,Hoothoot,"Normal, Flying",Generation-ii,Unknown,Hoothoot,Noctowl
+164,Noctowl,"Normal, Flying",Generation-ii,Unknown,Hoothoot,Noctowl
+165,Ledyba,"Bug, Flying",Generation-ii,Unknown,Ledyba,Ledian
+166,Ledian,"Bug, Flying",Generation-ii,Unknown,Ledyba,Ledian
+167,Spinarak,"Bug, Poison",Generation-ii,Unknown,Spinarak,Ariados
+168,Ariados,"Bug, Poison",Generation-ii,Unknown,Spinarak,Ariados
+169,Crobat,"Poison, Flying",Generation-ii,Unknown,Zubat,"Golbat, Crobat"
+170,Chinchou,"Water, Electric",Generation-ii,Unknown,Chinchou,Lanturn
+171,Lanturn,"Water, Electric",Generation-ii,Unknown,Chinchou,Lanturn
+172,Pichu,Electric,Generation-ii,Unknown,Pichu,"Pikachu, Raichu"
+173,Cleffa,Fairy,Generation-ii,Unknown,Cleffa,"Clefairy, Clefable"
+174,Igglybuff,"Normal, Fairy",Generation-ii,Unknown,Igglybuff,"Jigglypuff, Wigglytuff"
+175,Togepi,Fairy,Generation-ii,Unknown,Togepi,"Togetic, Togekiss"
+176,Togetic,"Fairy, Flying",Generation-ii,Unknown,Togepi,"Togetic, Togekiss"
+177,Natu,"Psychic, Flying",Generation-ii,Unknown,Natu,Xatu
+178,Xatu,"Psychic, Flying",Generation-ii,Unknown,Natu,Xatu
+179,Mareep,Electric,Generation-ii,Unknown,Mareep,"Flaaffy, Ampharos"
+180,Flaaffy,Electric,Generation-ii,Unknown,Mareep,"Flaaffy, Ampharos"
+181,Ampharos,Electric,Generation-ii,Unknown,Mareep,"Flaaffy, Ampharos"
+182,Bellossom,Grass,Generation-ii,Unknown,Oddish,"Gloom, Vileplume"
+183,Marill,"Water, Fairy",Generation-ii,Unknown,Azurill,"Marill, Azumarill"
+184,Azumarill,"Water, Fairy",Generation-ii,Unknown,Azurill,"Marill, Azumarill"
+185,Sudowoodo,Rock,Generation-ii,Unknown,Bonsly,Sudowoodo
+186,Politoed,Water,Generation-ii,Unknown,Poliwag,"Poliwhirl, Poliwrath"
+187,Hoppip,"Grass, Flying",Generation-ii,Unknown,Hoppip,"Skiploom, Jumpluff"
+188,Skiploom,"Grass, Flying",Generation-ii,Unknown,Hoppip,"Skiploom, Jumpluff"
+189,Jumpluff,"Grass, Flying",Generation-ii,Unknown,Hoppip,"Skiploom, Jumpluff"
+190,Aipom,Normal,Generation-ii,Unknown,Aipom,Ambipom
+191,Sunkern,Grass,Generation-ii,Unknown,Sunkern,Sunflora
+192,Sunflora,Grass,Generation-ii,Unknown,Sunkern,Sunflora
+193,Yanma,"Bug, Flying",Generation-ii,Unknown,Yanma,Yanmega
+194,Wooper,"Water, Ground",Generation-ii,Unknown,Wooper,Quagsire
+195,Quagsire,"Water, Ground",Generation-ii,Unknown,Wooper,Quagsire
+196,Espeon,Psychic,Generation-ii,Unknown,Eevee,Vaporeon
+197,Umbreon,Dark,Generation-ii,Unknown,Eevee,Vaporeon
+198,Murkrow,"Dark, Flying",Generation-ii,Unknown,Murkrow,Honchkrow
+199,Slowking,"Water, Psychic",Generation-ii,Unknown,Slowpoke,Slowbro
+200,Misdreavus,Ghost,Generation-ii,Unknown,Misdreavus,Mismagius
+201,Unown,Psychic,Generation-ii,Unknown,None,None
+202,Wobbuffet,Psychic,Generation-ii,Unknown,Wynaut,Wobbuffet
+203,Girafarig,"Normal, Psychic",Generation-ii,Unknown,Girafarig,Farigiraf
+204,Pineco,Bug,Generation-ii,Unknown,Pineco,Forretress
+205,Forretress,"Bug, Steel",Generation-ii,Unknown,Pineco,Forretress
+206,Dunsparce,Normal,Generation-ii,Unknown,Dunsparce,Dudunsparce
+207,Gligar,"Ground, Flying",Generation-ii,Unknown,Gligar,Gliscor
+208,Steelix,"Steel, Ground",Generation-ii,Unknown,Onix,Steelix
+209,Snubbull,Fairy,Generation-ii,Unknown,Snubbull,Granbull
+210,Granbull,Fairy,Generation-ii,Unknown,Snubbull,Granbull
+211,Qwilfish,"Water, Poison",Generation-ii,Unknown,Qwilfish,Overqwil
+212,Scizor,"Bug, Steel",Generation-ii,Unknown,Scyther,Scizor
+213,Shuckle,"Bug, Rock",Generation-ii,Unknown,None,None
+214,Heracross,"Bug, Fighting",Generation-ii,Unknown,None,None
+215,Sneasel,"Dark, Ice",Generation-ii,Unknown,Sneasel,Weavile
+216,Teddiursa,Normal,Generation-ii,Unknown,Teddiursa,"Ursaring, Ursaluna"
+217,Ursaring,Normal,Generation-ii,Unknown,Teddiursa,"Ursaring, Ursaluna"
+218,Slugma,Fire,Generation-ii,Unknown,Slugma,Magcargo
+219,Magcargo,"Fire, Rock",Generation-ii,Unknown,Slugma,Magcargo
+220,Swinub,"Ice, Ground",Generation-ii,Unknown,Swinub,"Piloswine, Mamoswine"
+221,Piloswine,"Ice, Ground",Generation-ii,Unknown,Swinub,"Piloswine, Mamoswine"
+222,Corsola,"Water, Rock",Generation-ii,Unknown,Corsola,Cursola
+223,Remoraid,Water,Generation-ii,Unknown,Remoraid,Octillery
+224,Octillery,Water,Generation-ii,Unknown,Remoraid,Octillery
+225,Delibird,"Ice, Flying",Generation-ii,Unknown,None,None
+226,Mantine,"Water, Flying",Generation-ii,Unknown,Mantyke,Mantine
+227,Skarmory,"Steel, Flying",Generation-ii,Unknown,None,None
+228,Houndour,"Dark, Fire",Generation-ii,Unknown,Houndour,Houndoom
+229,Houndoom,"Dark, Fire",Generation-ii,Unknown,Houndour,Houndoom
+230,Kingdra,"Water, Dragon",Generation-ii,Unknown,Horsea,"Seadra, Kingdra"
+231,Phanpy,Ground,Generation-ii,Unknown,Phanpy,Donphan
+232,Donphan,Ground,Generation-ii,Unknown,Phanpy,Donphan
+233,Porygon2,Normal,Generation-ii,Unknown,Porygon,"Porygon2, Porygon-z"
+234,Stantler,Normal,Generation-ii,Unknown,Stantler,Wyrdeer
+235,Smeargle,Normal,Generation-ii,Unknown,None,None
+236,Tyrogue,Fighting,Generation-ii,Unknown,Tyrogue,Hitmonlee
+237,Hitmontop,Fighting,Generation-ii,Unknown,Tyrogue,Hitmonlee
+238,Smoochum,"Ice, Psychic",Generation-ii,Unknown,Smoochum,Jynx
+239,Elekid,Electric,Generation-ii,Unknown,Elekid,"Electabuzz, Electivire"
+240,Magby,Fire,Generation-ii,Unknown,Magby,"Magmar, Magmortar"
+241,Miltank,Normal,Generation-ii,Unknown,None,None
+242,Blissey,Normal,Generation-ii,Unknown,Happiny,"Chansey, Blissey"
+243,Raikou,Electric,Generation-ii,Unknown,None,None
+244,Entei,Fire,Generation-ii,Unknown,None,None
+245,Suicune,Water,Generation-ii,Unknown,None,None
+246,Larvitar,"Rock, Ground",Generation-ii,Unknown,Larvitar,"Pupitar, Tyranitar"
+247,Pupitar,"Rock, Ground",Generation-ii,Unknown,Larvitar,"Pupitar, Tyranitar"
+248,Tyranitar,"Rock, Dark",Generation-ii,Unknown,Larvitar,"Pupitar, Tyranitar"
+249,Lugia,"Psychic, Flying",Generation-ii,Unknown,None,None
+250,Ho-oh,"Fire, Flying",Generation-ii,Unknown,None,None
+251,Celebi,"Psychic, Grass",Generation-ii,Unknown,None,None
+252,Treecko,Grass,Generation-iii,Unknown,Treecko,"Grovyle, Sceptile"
+253,Grovyle,Grass,Generation-iii,Unknown,Treecko,"Grovyle, Sceptile"
+254,Sceptile,Grass,Generation-iii,Unknown,Treecko,"Grovyle, Sceptile"
+255,Torchic,Fire,Generation-iii,Unknown,Torchic,"Combusken, Blaziken"
+256,Combusken,"Fire, Fighting",Generation-iii,Unknown,Torchic,"Combusken, Blaziken"
+257,Blaziken,"Fire, Fighting",Generation-iii,Unknown,Torchic,"Combusken, Blaziken"
+258,Mudkip,Water,Generation-iii,Unknown,Mudkip,"Marshtomp, Swampert"
+259,Marshtomp,"Water, Ground",Generation-iii,Unknown,Mudkip,"Marshtomp, Swampert"
+260,Swampert,"Water, Ground",Generation-iii,Unknown,Mudkip,"Marshtomp, Swampert"
+261,Poochyena,Dark,Generation-iii,Unknown,Poochyena,Mightyena
+262,Mightyena,Dark,Generation-iii,Unknown,Poochyena,Mightyena
+263,Zigzagoon,Normal,Generation-iii,Unknown,Zigzagoon,"Linoone, Obstagoon"
+264,Linoone,Normal,Generation-iii,Unknown,Zigzagoon,"Linoone, Obstagoon"
+265,Wurmple,Bug,Generation-iii,Unknown,Wurmple,"Silcoon, Beautifly"
+266,Silcoon,Bug,Generation-iii,Unknown,Wurmple,"Silcoon, Beautifly"
+267,Beautifly,"Bug, Flying",Generation-iii,Unknown,Wurmple,"Silcoon, Beautifly"
+268,Cascoon,Bug,Generation-iii,Unknown,Wurmple,"Silcoon, Beautifly"
+269,Dustox,"Bug, Poison",Generation-iii,Unknown,Wurmple,"Silcoon, Beautifly"
+270,Lotad,"Water, Grass",Generation-iii,Unknown,Lotad,"Lombre, Ludicolo"
+271,Lombre,"Water, Grass",Generation-iii,Unknown,Lotad,"Lombre, Ludicolo"
+272,Ludicolo,"Water, Grass",Generation-iii,Unknown,Lotad,"Lombre, Ludicolo"
+273,Seedot,Grass,Generation-iii,Unknown,Seedot,"Nuzleaf, Shiftry"
+274,Nuzleaf,"Grass, Dark",Generation-iii,Unknown,Seedot,"Nuzleaf, Shiftry"
+275,Shiftry,"Grass, Dark",Generation-iii,Unknown,Seedot,"Nuzleaf, Shiftry"
+276,Taillow,"Normal, Flying",Generation-iii,Unknown,Taillow,Swellow
+277,Swellow,"Normal, Flying",Generation-iii,Unknown,Taillow,Swellow
+278,Wingull,"Water, Flying",Generation-iii,Unknown,Wingull,Pelipper
+279,Pelipper,"Water, Flying",Generation-iii,Unknown,Wingull,Pelipper
+280,Ralts,"Psychic, Fairy",Generation-iii,Unknown,Ralts,"Kirlia, Gardevoir"
+281,Kirlia,"Psychic, Fairy",Generation-iii,Unknown,Ralts,"Kirlia, Gardevoir"
+282,Gardevoir,"Psychic, Fairy",Generation-iii,Unknown,Ralts,"Kirlia, Gardevoir"
+283,Surskit,"Bug, Water",Generation-iii,Unknown,Surskit,Masquerain
+284,Masquerain,"Bug, Flying",Generation-iii,Unknown,Surskit,Masquerain
+285,Shroomish,Grass,Generation-iii,Unknown,Shroomish,Breloom
+286,Breloom,"Grass, Fighting",Generation-iii,Unknown,Shroomish,Breloom
+287,Slakoth,Normal,Generation-iii,Unknown,Slakoth,"Vigoroth, Slaking"
+288,Vigoroth,Normal,Generation-iii,Unknown,Slakoth,"Vigoroth, Slaking"
+289,Slaking,Normal,Generation-iii,Unknown,Slakoth,"Vigoroth, Slaking"
+290,Nincada,"Bug, Ground",Generation-iii,Unknown,Nincada,Ninjask
+291,Ninjask,"Bug, Flying",Generation-iii,Unknown,Nincada,Ninjask
+292,Shedinja,"Bug, Ghost",Generation-iii,Unknown,Nincada,Ninjask
+293,Whismur,Normal,Generation-iii,Unknown,Whismur,"Loudred, Exploud"
+294,Loudred,Normal,Generation-iii,Unknown,Whismur,"Loudred, Exploud"
+295,Exploud,Normal,Generation-iii,Unknown,Whismur,"Loudred, Exploud"
+296,Makuhita,Fighting,Generation-iii,Unknown,Makuhita,Hariyama
+297,Hariyama,Fighting,Generation-iii,Unknown,Makuhita,Hariyama
+298,Azurill,"Normal, Fairy",Generation-iii,Unknown,Azurill,"Marill, Azumarill"
+299,Nosepass,Rock,Generation-iii,Unknown,Nosepass,Probopass
+300,Skitty,Normal,Generation-iii,Unknown,Skitty,Delcatty
+301,Delcatty,Normal,Generation-iii,Unknown,Skitty,Delcatty
+302,Sableye,"Dark, Ghost",Generation-iii,Unknown,None,None
+303,Mawile,"Steel, Fairy",Generation-iii,Unknown,None,None
+304,Aron,"Steel, Rock",Generation-iii,Unknown,Aron,"Lairon, Aggron"
+305,Lairon,"Steel, Rock",Generation-iii,Unknown,Aron,"Lairon, Aggron"
+306,Aggron,"Steel, Rock",Generation-iii,Unknown,Aron,"Lairon, Aggron"
+307,Meditite,"Fighting, Psychic",Generation-iii,Unknown,Meditite,Medicham
+308,Medicham,"Fighting, Psychic",Generation-iii,Unknown,Meditite,Medicham
+309,Electrike,Electric,Generation-iii,Unknown,Electrike,Manectric
+310,Manectric,Electric,Generation-iii,Unknown,Electrike,Manectric
+311,Plusle,Electric,Generation-iii,Unknown,None,None
+312,Minun,Electric,Generation-iii,Unknown,None,None
+313,Volbeat,Bug,Generation-iii,Unknown,None,None
+314,Illumise,Bug,Generation-iii,Unknown,None,None
+315,Roselia,"Grass, Poison",Generation-iii,Unknown,Budew,"Roselia, Roserade"
+316,Gulpin,Poison,Generation-iii,Unknown,Gulpin,Swalot
+317,Swalot,Poison,Generation-iii,Unknown,Gulpin,Swalot
+318,Carvanha,"Water, Dark",Generation-iii,Unknown,Carvanha,Sharpedo
+319,Sharpedo,"Water, Dark",Generation-iii,Unknown,Carvanha,Sharpedo
+320,Wailmer,Water,Generation-iii,Unknown,Wailmer,Wailord
+321,Wailord,Water,Generation-iii,Unknown,Wailmer,Wailord
+322,Numel,"Fire, Ground",Generation-iii,Unknown,Numel,Camerupt
+323,Camerupt,"Fire, Ground",Generation-iii,Unknown,Numel,Camerupt
+324,Torkoal,Fire,Generation-iii,Unknown,None,None
+325,Spoink,Psychic,Generation-iii,Unknown,Spoink,Grumpig
+326,Grumpig,Psychic,Generation-iii,Unknown,Spoink,Grumpig
+327,Spinda,Normal,Generation-iii,Unknown,None,None
+328,Trapinch,Ground,Generation-iii,Unknown,Trapinch,"Vibrava, Flygon"
+329,Vibrava,"Ground, Dragon",Generation-iii,Unknown,Trapinch,"Vibrava, Flygon"
+330,Flygon,"Ground, Dragon",Generation-iii,Unknown,Trapinch,"Vibrava, Flygon"
+331,Cacnea,Grass,Generation-iii,Unknown,Cacnea,Cacturne
+332,Cacturne,"Grass, Dark",Generation-iii,Unknown,Cacnea,Cacturne
+333,Swablu,"Normal, Flying",Generation-iii,Unknown,Swablu,Altaria
+334,Altaria,"Dragon, Flying",Generation-iii,Unknown,Swablu,Altaria
+335,Zangoose,Normal,Generation-iii,Unknown,None,None
+336,Seviper,Poison,Generation-iii,Unknown,None,None
+337,Lunatone,"Rock, Psychic",Generation-iii,Unknown,None,None
+338,Solrock,"Rock, Psychic",Generation-iii,Unknown,None,None
+339,Barboach,"Water, Ground",Generation-iii,Unknown,Barboach,Whiscash
+340,Whiscash,"Water, Ground",Generation-iii,Unknown,Barboach,Whiscash
+341,Corphish,Water,Generation-iii,Unknown,Corphish,Crawdaunt
+342,Crawdaunt,"Water, Dark",Generation-iii,Unknown,Corphish,Crawdaunt
+343,Baltoy,"Ground, Psychic",Generation-iii,Unknown,Baltoy,Claydol
+344,Claydol,"Ground, Psychic",Generation-iii,Unknown,Baltoy,Claydol
+345,Lileep,"Rock, Grass",Generation-iii,Unknown,Lileep,Cradily
+346,Cradily,"Rock, Grass",Generation-iii,Unknown,Lileep,Cradily
+347,Anorith,"Rock, Bug",Generation-iii,Unknown,Anorith,Armaldo
+348,Armaldo,"Rock, Bug",Generation-iii,Unknown,Anorith,Armaldo
+349,Feebas,Water,Generation-iii,Unknown,Feebas,Milotic
+350,Milotic,Water,Generation-iii,Unknown,Feebas,Milotic
+351,Castform,Normal,Generation-iii,Unknown,None,None
+352,Kecleon,Normal,Generation-iii,Unknown,None,None
+353,Shuppet,Ghost,Generation-iii,Unknown,Shuppet,Banette
+354,Banette,Ghost,Generation-iii,Unknown,Shuppet,Banette
+355,Duskull,Ghost,Generation-iii,Unknown,Duskull,"Dusclops, Dusknoir"
+356,Dusclops,Ghost,Generation-iii,Unknown,Duskull,"Dusclops, Dusknoir"
+357,Tropius,"Grass, Flying",Generation-iii,Unknown,None,None
+358,Chimecho,Psychic,Generation-iii,Unknown,Chingling,Chimecho
+359,Absol,Dark,Generation-iii,Unknown,None,None
+360,Wynaut,Psychic,Generation-iii,Unknown,Wynaut,Wobbuffet
+361,Snorunt,Ice,Generation-iii,Unknown,Snorunt,Glalie
+362,Glalie,Ice,Generation-iii,Unknown,Snorunt,Glalie
+363,Spheal,"Ice, Water",Generation-iii,Unknown,Spheal,"Sealeo, Walrein"
+364,Sealeo,"Ice, Water",Generation-iii,Unknown,Spheal,"Sealeo, Walrein"
+365,Walrein,"Ice, Water",Generation-iii,Unknown,Spheal,"Sealeo, Walrein"
+366,Clamperl,Water,Generation-iii,Unknown,Clamperl,Huntail
+367,Huntail,Water,Generation-iii,Unknown,Clamperl,Huntail
+368,Gorebyss,Water,Generation-iii,Unknown,Clamperl,Huntail
+369,Relicanth,"Water, Rock",Generation-iii,Unknown,None,None
+370,Luvdisc,Water,Generation-iii,Unknown,None,None
+371,Bagon,Dragon,Generation-iii,Unknown,Bagon,"Shelgon, Salamence"
+372,Shelgon,Dragon,Generation-iii,Unknown,Bagon,"Shelgon, Salamence"
+373,Salamence,"Dragon, Flying",Generation-iii,Unknown,Bagon,"Shelgon, Salamence"
+374,Beldum,"Steel, Psychic",Generation-iii,Unknown,Beldum,"Metang, Metagross"
+375,Metang,"Steel, Psychic",Generation-iii,Unknown,Beldum,"Metang, Metagross"
+376,Metagross,"Steel, Psychic",Generation-iii,Unknown,Beldum,"Metang, Metagross"
+377,Regirock,Rock,Generation-iii,Unknown,None,None
+378,Regice,Ice,Generation-iii,Unknown,None,None
+379,Registeel,Steel,Generation-iii,Unknown,None,None
+380,Latias,"Dragon, Psychic",Generation-iii,Unknown,None,None
+381,Latios,"Dragon, Psychic",Generation-iii,Unknown,None,None
+382,Kyogre,Water,Generation-iii,Unknown,None,None
+383,Groudon,Ground,Generation-iii,Unknown,None,None
+384,Rayquaza,"Dragon, Flying",Generation-iii,Unknown,None,None
+385,Jirachi,"Steel, Psychic",Generation-iii,Unknown,None,None
+386,Deoxys-normal,Psychic,Generation-iii,Unknown,None,None
+387,Turtwig,Grass,Generation-iv,Unknown,Turtwig,"Grotle, Torterra"
+388,Grotle,Grass,Generation-iv,Unknown,Turtwig,"Grotle, Torterra"
+389,Torterra,"Grass, Ground",Generation-iv,Unknown,Turtwig,"Grotle, Torterra"
+390,Chimchar,Fire,Generation-iv,Unknown,Chimchar,"Monferno, Infernape"
+391,Monferno,"Fire, Fighting",Generation-iv,Unknown,Chimchar,"Monferno, Infernape"
+392,Infernape,"Fire, Fighting",Generation-iv,Unknown,Chimchar,"Monferno, Infernape"
+393,Piplup,Water,Generation-iv,Unknown,Piplup,"Prinplup, Empoleon"
+394,Prinplup,Water,Generation-iv,Unknown,Piplup,"Prinplup, Empoleon"
+395,Empoleon,"Water, Steel",Generation-iv,Unknown,Piplup,"Prinplup, Empoleon"
+396,Starly,"Normal, Flying",Generation-iv,Unknown,Starly,"Staravia, Staraptor"
+397,Staravia,"Normal, Flying",Generation-iv,Unknown,Starly,"Staravia, Staraptor"
+398,Staraptor,"Normal, Flying",Generation-iv,Unknown,Starly,"Staravia, Staraptor"
+399,Bidoof,Normal,Generation-iv,Unknown,Bidoof,Bibarel
+400,Bibarel,"Normal, Water",Generation-iv,Unknown,Bidoof,Bibarel
+401,Kricketot,Bug,Generation-iv,Unknown,Kricketot,Kricketune
+402,Kricketune,Bug,Generation-iv,Unknown,Kricketot,Kricketune
+403,Shinx,Electric,Generation-iv,Unknown,Shinx,"Luxio, Luxray"
+404,Luxio,Electric,Generation-iv,Unknown,Shinx,"Luxio, Luxray"
+405,Luxray,Electric,Generation-iv,Unknown,Shinx,"Luxio, Luxray"
+406,Budew,"Grass, Poison",Generation-iv,Unknown,Budew,"Roselia, Roserade"
+407,Roserade,"Grass, Poison",Generation-iv,Unknown,Budew,"Roselia, Roserade"
+408,Cranidos,Rock,Generation-iv,Unknown,Cranidos,Rampardos
+409,Rampardos,Rock,Generation-iv,Unknown,Cranidos,Rampardos
+410,Shieldon,"Rock, Steel",Generation-iv,Unknown,Shieldon,Bastiodon
+411,Bastiodon,"Rock, Steel",Generation-iv,Unknown,Shieldon,Bastiodon
+412,Burmy,Bug,Generation-iv,Unknown,Burmy,Wormadam
+413,Wormadam-plant,"Bug, Grass",Generation-iv,Unknown,Burmy,Wormadam
+414,Mothim,"Bug, Flying",Generation-iv,Unknown,Burmy,Wormadam
+415,Combee,"Bug, Flying",Generation-iv,Unknown,Combee,Vespiquen
+416,Vespiquen,"Bug, Flying",Generation-iv,Unknown,Combee,Vespiquen
+417,Pachirisu,Electric,Generation-iv,Unknown,None,None
+418,Buizel,Water,Generation-iv,Unknown,Buizel,Floatzel
+419,Floatzel,Water,Generation-iv,Unknown,Buizel,Floatzel
+420,Cherubi,Grass,Generation-iv,Unknown,Cherubi,Cherrim
+421,Cherrim,Grass,Generation-iv,Unknown,Cherubi,Cherrim
+422,Shellos,Water,Generation-iv,Unknown,Shellos,Gastrodon
+423,Gastrodon,"Water, Ground",Generation-iv,Unknown,Shellos,Gastrodon
+424,Ambipom,Normal,Generation-iv,Unknown,Aipom,Ambipom
+425,Drifloon,"Ghost, Flying",Generation-iv,Unknown,Drifloon,Drifblim
+426,Drifblim,"Ghost, Flying",Generation-iv,Unknown,Drifloon,Drifblim
+427,Buneary,Normal,Generation-iv,Unknown,Buneary,Lopunny
+428,Lopunny,Normal,Generation-iv,Unknown,Buneary,Lopunny
+429,Mismagius,Ghost,Generation-iv,Unknown,Misdreavus,Mismagius
+430,Honchkrow,"Dark, Flying",Generation-iv,Unknown,Murkrow,Honchkrow
+431,Glameow,Normal,Generation-iv,Unknown,Glameow,Purugly
+432,Purugly,Normal,Generation-iv,Unknown,Glameow,Purugly
+433,Chingling,Psychic,Generation-iv,Unknown,Chingling,Chimecho
+434,Stunky,"Poison, Dark",Generation-iv,Unknown,Stunky,Skuntank
+435,Skuntank,"Poison, Dark",Generation-iv,Unknown,Stunky,Skuntank
+436,Bronzor,"Steel, Psychic",Generation-iv,Unknown,Bronzor,Bronzong
+437,Bronzong,"Steel, Psychic",Generation-iv,Unknown,Bronzor,Bronzong
+438,Bonsly,Rock,Generation-iv,Unknown,Bonsly,Sudowoodo
+439,Mime-jr,"Psychic, Fairy",Generation-iv,Unknown,Mime-jr,"Mr-mime, Mr-rime"
+440,Happiny,Normal,Generation-iv,Unknown,Happiny,"Chansey, Blissey"
+441,Chatot,"Normal, Flying",Generation-iv,Unknown,None,None
+442,Spiritomb,"Ghost, Dark",Generation-iv,Unknown,None,None
+443,Gible,"Dragon, Ground",Generation-iv,Unknown,Gible,"Gabite, Garchomp"
+444,Gabite,"Dragon, Ground",Generation-iv,Unknown,Gible,"Gabite, Garchomp"
+445,Garchomp,"Dragon, Ground",Generation-iv,Unknown,Gible,"Gabite, Garchomp"
+446,Munchlax,Normal,Generation-iv,Unknown,Munchlax,Snorlax
+447,Riolu,Fighting,Generation-iv,Unknown,Riolu,Lucario
+448,Lucario,"Fighting, Steel",Generation-iv,Unknown,Riolu,Lucario
+449,Hippopotas,Ground,Generation-iv,Unknown,Hippopotas,Hippowdon
+450,Hippowdon,Ground,Generation-iv,Unknown,Hippopotas,Hippowdon
+451,Skorupi,"Poison, Bug",Generation-iv,Unknown,Skorupi,Drapion
+452,Drapion,"Poison, Dark",Generation-iv,Unknown,Skorupi,Drapion
+453,Croagunk,"Poison, Fighting",Generation-iv,Unknown,Croagunk,Toxicroak
+454,Toxicroak,"Poison, Fighting",Generation-iv,Unknown,Croagunk,Toxicroak
+455,Carnivine,Grass,Generation-iv,Unknown,None,None
+456,Finneon,Water,Generation-iv,Unknown,Finneon,Lumineon
+457,Lumineon,Water,Generation-iv,Unknown,Finneon,Lumineon
+458,Mantyke,"Water, Flying",Generation-iv,Unknown,Mantyke,Mantine
+459,Snover,"Grass, Ice",Generation-iv,Unknown,Snover,Abomasnow
+460,Abomasnow,"Grass, Ice",Generation-iv,Unknown,Snover,Abomasnow
+461,Weavile,"Dark, Ice",Generation-iv,Unknown,Sneasel,Weavile
+462,Magnezone,"Electric, Steel",Generation-iv,Unknown,Magnemite,"Magneton, Magnezone"
+463,Lickilicky,Normal,Generation-iv,Unknown,Lickitung,Lickilicky
+464,Rhyperior,"Ground, Rock",Generation-iv,Unknown,Rhyhorn,"Rhydon, Rhyperior"
+465,Tangrowth,Grass,Generation-iv,Unknown,Tangela,Tangrowth
+466,Electivire,Electric,Generation-iv,Unknown,Elekid,"Electabuzz, Electivire"
+467,Magmortar,Fire,Generation-iv,Unknown,Magby,"Magmar, Magmortar"
+468,Togekiss,"Fairy, Flying",Generation-iv,Unknown,Togepi,"Togetic, Togekiss"
+469,Yanmega,"Bug, Flying",Generation-iv,Unknown,Yanma,Yanmega
+470,Leafeon,Grass,Generation-iv,Unknown,Eevee,Vaporeon
+471,Glaceon,Ice,Generation-iv,Unknown,Eevee,Vaporeon
+472,Gliscor,"Ground, Flying",Generation-iv,Unknown,Gligar,Gliscor
+473,Mamoswine,"Ice, Ground",Generation-iv,Unknown,Swinub,"Piloswine, Mamoswine"
+474,Porygon-z,Normal,Generation-iv,Unknown,Porygon,"Porygon2, Porygon-z"
+475,Gallade,"Psychic, Fighting",Generation-iv,Unknown,Ralts,"Kirlia, Gardevoir"
+476,Probopass,"Rock, Steel",Generation-iv,Unknown,Nosepass,Probopass
+477,Dusknoir,Ghost,Generation-iv,Unknown,Duskull,"Dusclops, Dusknoir"
+478,Froslass,"Ice, Ghost",Generation-iv,Unknown,Snorunt,Glalie
+479,Rotom,"Electric, Ghost",Generation-iv,Unknown,None,None
+480,Uxie,Psychic,Generation-iv,Unknown,None,None
+481,Mesprit,Psychic,Generation-iv,Unknown,None,None
+482,Azelf,Psychic,Generation-iv,Unknown,None,None
+483,Dialga,"Steel, Dragon",Generation-iv,Unknown,None,None
+484,Palkia,"Water, Dragon",Generation-iv,Unknown,None,None
+485,Heatran,"Fire, Steel",Generation-iv,Unknown,None,None
+486,Regigigas,Normal,Generation-iv,Unknown,None,None
+487,Giratina-altered,"Ghost, Dragon",Generation-iv,Unknown,None,None
+488,Cresselia,Psychic,Generation-iv,Unknown,None,None
+489,Phione,Water,Generation-iv,Unknown,Phione,Manaphy
+490,Manaphy,Water,Generation-iv,Unknown,Phione,Manaphy
+491,Darkrai,Dark,Generation-iv,Unknown,None,None
+492,Shaymin-land,Grass,Generation-iv,Unknown,None,None
+493,Arceus,Normal,Generation-iv,Unknown,None,None
+494,Victini,"Psychic, Fire",Generation-v,Unknown,None,None
+495,Snivy,Grass,Generation-v,Unknown,Snivy,"Servine, Serperior"
+496,Servine,Grass,Generation-v,Unknown,Snivy,"Servine, Serperior"
+497,Serperior,Grass,Generation-v,Unknown,Snivy,"Servine, Serperior"
+498,Tepig,Fire,Generation-v,Unknown,Tepig,"Pignite, Emboar"
+499,Pignite,"Fire, Fighting",Generation-v,Unknown,Tepig,"Pignite, Emboar"
+500,Emboar,"Fire, Fighting",Generation-v,Unknown,Tepig,"Pignite, Emboar"
+501,Oshawott,Water,Generation-v,Unknown,Oshawott,"Dewott, Samurott"
+502,Dewott,Water,Generation-v,Unknown,Oshawott,"Dewott, Samurott"
+503,Samurott,Water,Generation-v,Unknown,Oshawott,"Dewott, Samurott"
+504,Patrat,Normal,Generation-v,Unknown,Patrat,Watchog
+505,Watchog,Normal,Generation-v,Unknown,Patrat,Watchog
+506,Lillipup,Normal,Generation-v,Unknown,Lillipup,"Herdier, Stoutland"
+507,Herdier,Normal,Generation-v,Unknown,Lillipup,"Herdier, Stoutland"
+508,Stoutland,Normal,Generation-v,Unknown,Lillipup,"Herdier, Stoutland"
+509,Purrloin,Dark,Generation-v,Unknown,Purrloin,Liepard
+510,Liepard,Dark,Generation-v,Unknown,Purrloin,Liepard
+511,Pansage,Grass,Generation-v,Unknown,Pansage,Simisage
+512,Simisage,Grass,Generation-v,Unknown,Pansage,Simisage
+513,Pansear,Fire,Generation-v,Unknown,Pansear,Simisear
+514,Simisear,Fire,Generation-v,Unknown,Pansear,Simisear
+515,Panpour,Water,Generation-v,Unknown,Panpour,Simipour
+516,Simipour,Water,Generation-v,Unknown,Panpour,Simipour
+517,Munna,Psychic,Generation-v,Unknown,Munna,Musharna
+518,Musharna,Psychic,Generation-v,Unknown,Munna,Musharna
+519,Pidove,"Normal, Flying",Generation-v,Unknown,Pidove,"Tranquill, Unfezant"
+520,Tranquill,"Normal, Flying",Generation-v,Unknown,Pidove,"Tranquill, Unfezant"
+521,Unfezant,"Normal, Flying",Generation-v,Unknown,Pidove,"Tranquill, Unfezant"
+522,Blitzle,Electric,Generation-v,Unknown,Blitzle,Zebstrika
+523,Zebstrika,Electric,Generation-v,Unknown,Blitzle,Zebstrika
+524,Roggenrola,Rock,Generation-v,Unknown,Roggenrola,"Boldore, Gigalith"
+525,Boldore,Rock,Generation-v,Unknown,Roggenrola,"Boldore, Gigalith"
+526,Gigalith,Rock,Generation-v,Unknown,Roggenrola,"Boldore, Gigalith"
+527,Woobat,"Psychic, Flying",Generation-v,Unknown,Woobat,Swoobat
+528,Swoobat,"Psychic, Flying",Generation-v,Unknown,Woobat,Swoobat
+529,Drilbur,Ground,Generation-v,Unknown,Drilbur,Excadrill
+530,Excadrill,"Ground, Steel",Generation-v,Unknown,Drilbur,Excadrill
+531,Audino,Normal,Generation-v,Unknown,None,None
+532,Timburr,Fighting,Generation-v,Unknown,Timburr,"Gurdurr, Conkeldurr"
+533,Gurdurr,Fighting,Generation-v,Unknown,Timburr,"Gurdurr, Conkeldurr"
+534,Conkeldurr,Fighting,Generation-v,Unknown,Timburr,"Gurdurr, Conkeldurr"
+535,Tympole,Water,Generation-v,Unknown,Tympole,"Palpitoad, Seismitoad"
+536,Palpitoad,"Water, Ground",Generation-v,Unknown,Tympole,"Palpitoad, Seismitoad"
+537,Seismitoad,"Water, Ground",Generation-v,Unknown,Tympole,"Palpitoad, Seismitoad"
+538,Throh,Fighting,Generation-v,Unknown,None,None
+539,Sawk,Fighting,Generation-v,Unknown,None,None
+540,Sewaddle,"Bug, Grass",Generation-v,Unknown,Sewaddle,"Swadloon, Leavanny"
+541,Swadloon,"Bug, Grass",Generation-v,Unknown,Sewaddle,"Swadloon, Leavanny"
+542,Leavanny,"Bug, Grass",Generation-v,Unknown,Sewaddle,"Swadloon, Leavanny"
+543,Venipede,"Bug, Poison",Generation-v,Unknown,Venipede,"Whirlipede, Scolipede"
+544,Whirlipede,"Bug, Poison",Generation-v,Unknown,Venipede,"Whirlipede, Scolipede"
+545,Scolipede,"Bug, Poison",Generation-v,Unknown,Venipede,"Whirlipede, Scolipede"
+546,Cottonee,"Grass, Fairy",Generation-v,Unknown,Cottonee,Whimsicott
+547,Whimsicott,"Grass, Fairy",Generation-v,Unknown,Cottonee,Whimsicott
+548,Petilil,Grass,Generation-v,Unknown,Petilil,Lilligant
+549,Lilligant,Grass,Generation-v,Unknown,Petilil,Lilligant
+550,Basculin-red-striped,Water,Generation-v,Unknown,Basculin,Basculegion
+551,Sandile,"Ground, Dark",Generation-v,Unknown,Sandile,"Krokorok, Krookodile"
+552,Krokorok,"Ground, Dark",Generation-v,Unknown,Sandile,"Krokorok, Krookodile"
+553,Krookodile,"Ground, Dark",Generation-v,Unknown,Sandile,"Krokorok, Krookodile"
+554,Darumaka,Fire,Generation-v,Unknown,Darumaka,Darmanitan
+555,Darmanitan-standard,Fire,Generation-v,Unknown,Darumaka,Darmanitan
+556,Maractus,Grass,Generation-v,Unknown,None,None
+557,Dwebble,"Bug, Rock",Generation-v,Unknown,Dwebble,Crustle
+558,Crustle,"Bug, Rock",Generation-v,Unknown,Dwebble,Crustle
+559,Scraggy,"Dark, Fighting",Generation-v,Unknown,Scraggy,Scrafty
+560,Scrafty,"Dark, Fighting",Generation-v,Unknown,Scraggy,Scrafty
+561,Sigilyph,"Psychic, Flying",Generation-v,Unknown,None,None
+562,Yamask,Ghost,Generation-v,Unknown,Yamask,Cofagrigus
+563,Cofagrigus,Ghost,Generation-v,Unknown,Yamask,Cofagrigus
+564,Tirtouga,"Water, Rock",Generation-v,Unknown,Tirtouga,Carracosta
+565,Carracosta,"Water, Rock",Generation-v,Unknown,Tirtouga,Carracosta
+566,Archen,"Rock, Flying",Generation-v,Unknown,Archen,Archeops
+567,Archeops,"Rock, Flying",Generation-v,Unknown,Archen,Archeops
+568,Trubbish,Poison,Generation-v,Unknown,Trubbish,Garbodor
+569,Garbodor,Poison,Generation-v,Unknown,Trubbish,Garbodor
+570,Zorua,Dark,Generation-v,Unknown,Zorua,Zoroark
+571,Zoroark,Dark,Generation-v,Unknown,Zorua,Zoroark
+572,Minccino,Normal,Generation-v,Unknown,Minccino,Cinccino
+573,Cinccino,Normal,Generation-v,Unknown,Minccino,Cinccino
+574,Gothita,Psychic,Generation-v,Unknown,Gothita,"Gothorita, Gothitelle"
+575,Gothorita,Psychic,Generation-v,Unknown,Gothita,"Gothorita, Gothitelle"
+576,Gothitelle,Psychic,Generation-v,Unknown,Gothita,"Gothorita, Gothitelle"
+577,Solosis,Psychic,Generation-v,Unknown,Solosis,"Duosion, Reuniclus"
+578,Duosion,Psychic,Generation-v,Unknown,Solosis,"Duosion, Reuniclus"
+579,Reuniclus,Psychic,Generation-v,Unknown,Solosis,"Duosion, Reuniclus"
+580,Ducklett,"Water, Flying",Generation-v,Unknown,Ducklett,Swanna
+581,Swanna,"Water, Flying",Generation-v,Unknown,Ducklett,Swanna
+582,Vanillite,Ice,Generation-v,Unknown,Vanillite,"Vanillish, Vanilluxe"
+583,Vanillish,Ice,Generation-v,Unknown,Vanillite,"Vanillish, Vanilluxe"
+584,Vanilluxe,Ice,Generation-v,Unknown,Vanillite,"Vanillish, Vanilluxe"
+585,Deerling,"Normal, Grass",Generation-v,Unknown,Deerling,Sawsbuck
+586,Sawsbuck,"Normal, Grass",Generation-v,Unknown,Deerling,Sawsbuck
+587,Emolga,"Electric, Flying",Generation-v,Unknown,None,None
+588,Karrablast,Bug,Generation-v,Unknown,Karrablast,Escavalier
+589,Escavalier,"Bug, Steel",Generation-v,Unknown,Karrablast,Escavalier
+590,Foongus,"Grass, Poison",Generation-v,Unknown,Foongus,Amoonguss
+591,Amoonguss,"Grass, Poison",Generation-v,Unknown,Foongus,Amoonguss
+592,Frillish,"Water, Ghost",Generation-v,Unknown,Frillish,Jellicent
+593,Jellicent,"Water, Ghost",Generation-v,Unknown,Frillish,Jellicent
+594,Alomomola,Water,Generation-v,Unknown,None,None
+595,Joltik,"Bug, Electric",Generation-v,Unknown,Joltik,Galvantula
+596,Galvantula,"Bug, Electric",Generation-v,Unknown,Joltik,Galvantula
+597,Ferroseed,"Grass, Steel",Generation-v,Unknown,Ferroseed,Ferrothorn
+598,Ferrothorn,"Grass, Steel",Generation-v,Unknown,Ferroseed,Ferrothorn
+599,Klink,Steel,Generation-v,Unknown,Klink,"Klang, Klinklang"
+600,Klang,Steel,Generation-v,Unknown,Klink,"Klang, Klinklang"
+601,Klinklang,Steel,Generation-v,Unknown,Klink,"Klang, Klinklang"
+602,Tynamo,Electric,Generation-v,Unknown,Tynamo,"Eelektrik, Eelektross"
+603,Eelektrik,Electric,Generation-v,Unknown,Tynamo,"Eelektrik, Eelektross"
+604,Eelektross,Electric,Generation-v,Unknown,Tynamo,"Eelektrik, Eelektross"
+605,Elgyem,Psychic,Generation-v,Unknown,Elgyem,Beheeyem
+606,Beheeyem,Psychic,Generation-v,Unknown,Elgyem,Beheeyem
+607,Litwick,"Ghost, Fire",Generation-v,Unknown,Litwick,"Lampent, Chandelure"
+608,Lampent,"Ghost, Fire",Generation-v,Unknown,Litwick,"Lampent, Chandelure"
+609,Chandelure,"Ghost, Fire",Generation-v,Unknown,Litwick,"Lampent, Chandelure"
+610,Axew,Dragon,Generation-v,Unknown,Axew,"Fraxure, Haxorus"
+611,Fraxure,Dragon,Generation-v,Unknown,Axew,"Fraxure, Haxorus"
+612,Haxorus,Dragon,Generation-v,Unknown,Axew,"Fraxure, Haxorus"
+613,Cubchoo,Ice,Generation-v,Unknown,Cubchoo,Beartic
+614,Beartic,Ice,Generation-v,Unknown,Cubchoo,Beartic
+615,Cryogonal,Ice,Generation-v,Unknown,None,None
+616,Shelmet,Bug,Generation-v,Unknown,Shelmet,Accelgor
+617,Accelgor,Bug,Generation-v,Unknown,Shelmet,Accelgor
+618,Stunfisk,"Ground, Electric",Generation-v,Unknown,None,None
+619,Mienfoo,Fighting,Generation-v,Unknown,Mienfoo,Mienshao
+620,Mienshao,Fighting,Generation-v,Unknown,Mienfoo,Mienshao
+621,Druddigon,Dragon,Generation-v,Unknown,None,None
+622,Golett,"Ground, Ghost",Generation-v,Unknown,Golett,Golurk
+623,Golurk,"Ground, Ghost",Generation-v,Unknown,Golett,Golurk
+624,Pawniard,"Dark, Steel",Generation-v,Unknown,Pawniard,"Bisharp, Kingambit"
+625,Bisharp,"Dark, Steel",Generation-v,Unknown,Pawniard,"Bisharp, Kingambit"
+626,Bouffalant,Normal,Generation-v,Unknown,None,None
+627,Rufflet,"Normal, Flying",Generation-v,Unknown,Rufflet,Braviary
+628,Braviary,"Normal, Flying",Generation-v,Unknown,Rufflet,Braviary
+629,Vullaby,"Dark, Flying",Generation-v,Unknown,Vullaby,Mandibuzz
+630,Mandibuzz,"Dark, Flying",Generation-v,Unknown,Vullaby,Mandibuzz
+631,Heatmor,Fire,Generation-v,Unknown,None,None
+632,Durant,"Bug, Steel",Generation-v,Unknown,None,None
+633,Deino,"Dark, Dragon",Generation-v,Unknown,Deino,"Zweilous, Hydreigon"
+634,Zweilous,"Dark, Dragon",Generation-v,Unknown,Deino,"Zweilous, Hydreigon"
+635,Hydreigon,"Dark, Dragon",Generation-v,Unknown,Deino,"Zweilous, Hydreigon"
+636,Larvesta,"Bug, Fire",Generation-v,Unknown,Larvesta,Volcarona
+637,Volcarona,"Bug, Fire",Generation-v,Unknown,Larvesta,Volcarona
+638,Cobalion,"Steel, Fighting",Generation-v,Unknown,None,None
+639,Terrakion,"Rock, Fighting",Generation-v,Unknown,None,None
+640,Virizion,"Grass, Fighting",Generation-v,Unknown,None,None
+641,Tornadus-incarnate,Flying,Generation-v,Unknown,None,None
+642,Thundurus-incarnate,"Electric, Flying",Generation-v,Unknown,None,None
+643,Reshiram,"Dragon, Fire",Generation-v,Unknown,None,None
+644,Zekrom,"Dragon, Electric",Generation-v,Unknown,None,None
+645,Landorus-incarnate,"Ground, Flying",Generation-v,Unknown,None,None
+646,Kyurem,"Dragon, Ice",Generation-v,Unknown,None,None
+647,Keldeo-ordinary,"Water, Fighting",Generation-v,Unknown,None,None
+648,Meloetta-aria,"Normal, Psychic",Generation-v,Unknown,None,None
+649,Genesect,"Bug, Steel",Generation-v,Unknown,None,None
+650,Chespin,Grass,Generation-vi,Unknown,Chespin,"Quilladin, Chesnaught"
+651,Quilladin,Grass,Generation-vi,Unknown,Chespin,"Quilladin, Chesnaught"
+652,Chesnaught,"Grass, Fighting",Generation-vi,Unknown,Chespin,"Quilladin, Chesnaught"
+653,Fennekin,Fire,Generation-vi,Unknown,Fennekin,"Braixen, Delphox"
+654,Braixen,Fire,Generation-vi,Unknown,Fennekin,"Braixen, Delphox"
+655,Delphox,"Fire, Psychic",Generation-vi,Unknown,Fennekin,"Braixen, Delphox"
+656,Froakie,Water,Generation-vi,Unknown,Froakie,"Frogadier, Greninja"
+657,Frogadier,Water,Generation-vi,Unknown,Froakie,"Frogadier, Greninja"
+658,Greninja,"Water, Dark",Generation-vi,Unknown,Froakie,"Frogadier, Greninja"
+659,Bunnelby,Normal,Generation-vi,Unknown,Bunnelby,Diggersby
+660,Diggersby,"Normal, Ground",Generation-vi,Unknown,Bunnelby,Diggersby
+661,Fletchling,"Normal, Flying",Generation-vi,Unknown,Fletchling,"Fletchinder, Talonflame"
+662,Fletchinder,"Fire, Flying",Generation-vi,Unknown,Fletchling,"Fletchinder, Talonflame"
+663,Talonflame,"Fire, Flying",Generation-vi,Unknown,Fletchling,"Fletchinder, Talonflame"
+664,Scatterbug,Bug,Generation-vi,Unknown,Scatterbug,"Spewpa, Vivillon"
+665,Spewpa,Bug,Generation-vi,Unknown,Scatterbug,"Spewpa, Vivillon"
+666,Vivillon,"Bug, Flying",Generation-vi,Unknown,Scatterbug,"Spewpa, Vivillon"
+667,Litleo,"Fire, Normal",Generation-vi,Unknown,Litleo,Pyroar
+668,Pyroar,"Fire, Normal",Generation-vi,Unknown,Litleo,Pyroar
+669,Flabebe,Fairy,Generation-vi,Unknown,Flabebe,"Floette, Florges"
+670,Floette,Fairy,Generation-vi,Unknown,Flabebe,"Floette, Florges"
+671,Florges,Fairy,Generation-vi,Unknown,Flabebe,"Floette, Florges"
+672,Skiddo,Grass,Generation-vi,Unknown,Skiddo,Gogoat
+673,Gogoat,Grass,Generation-vi,Unknown,Skiddo,Gogoat
+674,Pancham,Fighting,Generation-vi,Unknown,Pancham,Pangoro
+675,Pangoro,"Fighting, Dark",Generation-vi,Unknown,Pancham,Pangoro
+676,Furfrou,Normal,Generation-vi,Unknown,None,None
+677,Espurr,Psychic,Generation-vi,Unknown,Espurr,Meowstic
+678,Meowstic-male,Psychic,Generation-vi,Unknown,Espurr,Meowstic
+679,Honedge,"Steel, Ghost",Generation-vi,Unknown,Honedge,"Doublade, Aegislash"
+680,Doublade,"Steel, Ghost",Generation-vi,Unknown,Honedge,"Doublade, Aegislash"
+681,Aegislash-shield,"Steel, Ghost",Generation-vi,Unknown,Honedge,"Doublade, Aegislash"
+682,Spritzee,Fairy,Generation-vi,Unknown,Spritzee,Aromatisse
+683,Aromatisse,Fairy,Generation-vi,Unknown,Spritzee,Aromatisse
+684,Swirlix,Fairy,Generation-vi,Unknown,Swirlix,Slurpuff
+685,Slurpuff,Fairy,Generation-vi,Unknown,Swirlix,Slurpuff
+686,Inkay,"Dark, Psychic",Generation-vi,Unknown,Inkay,Malamar
+687,Malamar,"Dark, Psychic",Generation-vi,Unknown,Inkay,Malamar
+688,Binacle,"Rock, Water",Generation-vi,Unknown,Binacle,Barbaracle
+689,Barbaracle,"Rock, Water",Generation-vi,Unknown,Binacle,Barbaracle
+690,Skrelp,"Poison, Water",Generation-vi,Unknown,Skrelp,Dragalge
+691,Dragalge,"Poison, Dragon",Generation-vi,Unknown,Skrelp,Dragalge
+692,Clauncher,Water,Generation-vi,Unknown,Clauncher,Clawitzer
+693,Clawitzer,Water,Generation-vi,Unknown,Clauncher,Clawitzer
+694,Helioptile,"Electric, Normal",Generation-vi,Unknown,Helioptile,Heliolisk
+695,Heliolisk,"Electric, Normal",Generation-vi,Unknown,Helioptile,Heliolisk
+696,Tyrunt,"Rock, Dragon",Generation-vi,Unknown,Tyrunt,Tyrantrum
+697,Tyrantrum,"Rock, Dragon",Generation-vi,Unknown,Tyrunt,Tyrantrum
+698,Amaura,"Rock, Ice",Generation-vi,Unknown,Amaura,Aurorus
+699,Aurorus,"Rock, Ice",Generation-vi,Unknown,Amaura,Aurorus
+700,Sylveon,Fairy,Generation-vi,Unknown,Eevee,Vaporeon
+701,Hawlucha,"Fighting, Flying",Generation-vi,Unknown,None,None
+702,Dedenne,"Electric, Fairy",Generation-vi,Unknown,None,None
+703,Carbink,"Rock, Fairy",Generation-vi,Unknown,None,None
+704,Goomy,Dragon,Generation-vi,Unknown,Goomy,"Sliggoo, Goodra"
+705,Sliggoo,Dragon,Generation-vi,Unknown,Goomy,"Sliggoo, Goodra"
+706,Goodra,Dragon,Generation-vi,Unknown,Goomy,"Sliggoo, Goodra"
+707,Klefki,"Steel, Fairy",Generation-vi,Unknown,None,None
+708,Phantump,"Ghost, Grass",Generation-vi,Unknown,Phantump,Trevenant
+709,Trevenant,"Ghost, Grass",Generation-vi,Unknown,Phantump,Trevenant
+710,Pumpkaboo-average,"Ghost, Grass",Generation-vi,Unknown,Pumpkaboo,Gourgeist
+711,Gourgeist-average,"Ghost, Grass",Generation-vi,Unknown,Pumpkaboo,Gourgeist
+712,Bergmite,Ice,Generation-vi,Unknown,Bergmite,Avalugg
+713,Avalugg,Ice,Generation-vi,Unknown,Bergmite,Avalugg
+714,Noibat,"Flying, Dragon",Generation-vi,Unknown,Noibat,Noivern
+715,Noivern,"Flying, Dragon",Generation-vi,Unknown,Noibat,Noivern
+716,Xerneas,Fairy,Generation-vi,Unknown,None,None
+717,Yveltal,"Dark, Flying",Generation-vi,Unknown,None,None
+718,Zygarde-50,"Dragon, Ground",Generation-vi,Unknown,None,None
+719,Diancie,"Rock, Fairy",Generation-vi,Unknown,None,None
+720,Hoopa,"Psychic, Ghost",Generation-vi,Unknown,None,None
+721,Volcanion,"Fire, Water",Generation-vi,Unknown,None,None
+722,Rowlet,"Grass, Flying",Generation-vii,Unknown,Rowlet,"Dartrix, Decidueye"
+723,Dartrix,"Grass, Flying",Generation-vii,Unknown,Rowlet,"Dartrix, Decidueye"
+724,Decidueye,"Grass, Ghost",Generation-vii,Unknown,Rowlet,"Dartrix, Decidueye"
+725,Litten,Fire,Generation-vii,Unknown,Litten,"Torracat, Incineroar"
+726,Torracat,Fire,Generation-vii,Unknown,Litten,"Torracat, Incineroar"
+727,Incineroar,"Fire, Dark",Generation-vii,Unknown,Litten,"Torracat, Incineroar"
+728,Popplio,Water,Generation-vii,Unknown,Popplio,"Brionne, Primarina"
+729,Brionne,Water,Generation-vii,Unknown,Popplio,"Brionne, Primarina"
+730,Primarina,"Water, Fairy",Generation-vii,Unknown,Popplio,"Brionne, Primarina"
+731,Pikipek,"Normal, Flying",Generation-vii,Unknown,Pikipek,"Trumbeak, Toucannon"
+732,Trumbeak,"Normal, Flying",Generation-vii,Unknown,Pikipek,"Trumbeak, Toucannon"
+733,Toucannon,"Normal, Flying",Generation-vii,Unknown,Pikipek,"Trumbeak, Toucannon"
+734,Yungoos,Normal,Generation-vii,Unknown,Yungoos,Gumshoos
+735,Gumshoos,Normal,Generation-vii,Unknown,Yungoos,Gumshoos
+736,Grubbin,Bug,Generation-vii,Unknown,Grubbin,"Charjabug, Vikavolt"
+737,Charjabug,"Bug, Electric",Generation-vii,Unknown,Grubbin,"Charjabug, Vikavolt"
+738,Vikavolt,"Bug, Electric",Generation-vii,Unknown,Grubbin,"Charjabug, Vikavolt"
+739,Crabrawler,Fighting,Generation-vii,Unknown,Crabrawler,Crabominable
+740,Crabominable,"Fighting, Ice",Generation-vii,Unknown,Crabrawler,Crabominable
+741,Oricorio-baile,"Fire, Flying",Generation-vii,Unknown,None,None
+742,Cutiefly,"Bug, Fairy",Generation-vii,Unknown,Cutiefly,Ribombee
+743,Ribombee,"Bug, Fairy",Generation-vii,Unknown,Cutiefly,Ribombee
+744,Rockruff,Rock,Generation-vii,Unknown,Rockruff,Lycanroc
+745,Lycanroc-midday,Rock,Generation-vii,Unknown,Rockruff,Lycanroc
+746,Wishiwashi-solo,Water,Generation-vii,Unknown,None,None
+747,Mareanie,"Poison, Water",Generation-vii,Unknown,Mareanie,Toxapex
+748,Toxapex,"Poison, Water",Generation-vii,Unknown,Mareanie,Toxapex
+749,Mudbray,Ground,Generation-vii,Unknown,Mudbray,Mudsdale
+750,Mudsdale,Ground,Generation-vii,Unknown,Mudbray,Mudsdale
+751,Dewpider,"Water, Bug",Generation-vii,Unknown,Dewpider,Araquanid
+752,Araquanid,"Water, Bug",Generation-vii,Unknown,Dewpider,Araquanid
+753,Fomantis,Grass,Generation-vii,Unknown,Fomantis,Lurantis
+754,Lurantis,Grass,Generation-vii,Unknown,Fomantis,Lurantis
+755,Morelull,"Grass, Fairy",Generation-vii,Unknown,Morelull,Shiinotic
+756,Shiinotic,"Grass, Fairy",Generation-vii,Unknown,Morelull,Shiinotic
+757,Salandit,"Poison, Fire",Generation-vii,Unknown,Salandit,Salazzle
+758,Salazzle,"Poison, Fire",Generation-vii,Unknown,Salandit,Salazzle
+759,Stufful,"Normal, Fighting",Generation-vii,Unknown,Stufful,Bewear
+760,Bewear,"Normal, Fighting",Generation-vii,Unknown,Stufful,Bewear
+761,Bounsweet,Grass,Generation-vii,Unknown,Bounsweet,"Steenee, Tsareena"
+762,Steenee,Grass,Generation-vii,Unknown,Bounsweet,"Steenee, Tsareena"
+763,Tsareena,Grass,Generation-vii,Unknown,Bounsweet,"Steenee, Tsareena"
+764,Comfey,Fairy,Generation-vii,Unknown,None,None
+765,Oranguru,"Normal, Psychic",Generation-vii,Unknown,None,None
+766,Passimian,Fighting,Generation-vii,Unknown,None,None
+767,Wimpod,"Bug, Water",Generation-vii,Unknown,Wimpod,Golisopod
+768,Golisopod,"Bug, Water",Generation-vii,Unknown,Wimpod,Golisopod
+769,Sandygast,"Ghost, Ground",Generation-vii,Unknown,Sandygast,Palossand
+770,Palossand,"Ghost, Ground",Generation-vii,Unknown,Sandygast,Palossand
+771,Pyukumuku,Water,Generation-vii,Unknown,None,None
+772,Type-null,Normal,Generation-vii,Unknown,Type-null,Silvally
+773,Silvally,Normal,Generation-vii,Unknown,Type-null,Silvally
+774,Minior-red-meteor,"Rock, Flying",Generation-vii,Unknown,None,None
+775,Komala,Normal,Generation-vii,Unknown,None,None
+776,Turtonator,"Fire, Dragon",Generation-vii,Unknown,None,None
+777,Togedemaru,"Electric, Steel",Generation-vii,Unknown,None,None
+778,Mimikyu-disguised,"Ghost, Fairy",Generation-vii,Unknown,None,None
+779,Bruxish,"Water, Psychic",Generation-vii,Unknown,None,None
+780,Drampa,"Normal, Dragon",Generation-vii,Unknown,None,None
+781,Dhelmise,"Ghost, Grass",Generation-vii,Unknown,None,None
+782,Jangmo-o,Dragon,Generation-vii,Unknown,Jangmo-o,"Hakamo-o, Kommo-o"
+783,Hakamo-o,"Dragon, Fighting",Generation-vii,Unknown,Jangmo-o,"Hakamo-o, Kommo-o"
+784,Kommo-o,"Dragon, Fighting",Generation-vii,Unknown,Jangmo-o,"Hakamo-o, Kommo-o"
+785,Tapu-koko,"Electric, Fairy",Generation-vii,Unknown,None,None
+786,Tapu-lele,"Psychic, Fairy",Generation-vii,Unknown,None,None
+787,Tapu-bulu,"Grass, Fairy",Generation-vii,Unknown,None,None
+788,Tapu-fini,"Water, Fairy",Generation-vii,Unknown,None,None
+789,Cosmog,Psychic,Generation-vii,Unknown,Cosmog,"Cosmoem, Solgaleo"
+790,Cosmoem,Psychic,Generation-vii,Unknown,Cosmog,"Cosmoem, Solgaleo"
+791,Solgaleo,"Psychic, Steel",Generation-vii,Unknown,Cosmog,"Cosmoem, Solgaleo"
+792,Lunala,"Psychic, Ghost",Generation-vii,Unknown,Cosmog,"Cosmoem, Solgaleo"
+793,Nihilego,"Rock, Poison",Generation-vii,Unknown,None,None
+794,Buzzwole,"Bug, Fighting",Generation-vii,Unknown,None,None
+795,Pheromosa,"Bug, Fighting",Generation-vii,Unknown,None,None
+796,Xurkitree,Electric,Generation-vii,Unknown,None,None
+797,Celesteela,"Steel, Flying",Generation-vii,Unknown,None,None
+798,Kartana,"Grass, Steel",Generation-vii,Unknown,None,None
+799,Guzzlord,"Dark, Dragon",Generation-vii,Unknown,None,None
+800,Necrozma,Psychic,Generation-vii,Unknown,None,None
+801,Magearna,"Steel, Fairy",Generation-vii,Unknown,None,None
+802,Marshadow,"Fighting, Ghost",Generation-vii,Unknown,None,None
+803,Poipole,Poison,Generation-vii,Unknown,Poipole,Naganadel
+804,Naganadel,"Poison, Dragon",Generation-vii,Unknown,Poipole,Naganadel
+805,Stakataka,"Rock, Steel",Generation-vii,Unknown,None,None
+806,Blacephalon,"Fire, Ghost",Generation-vii,Unknown,None,None
+807,Zeraora,Electric,Generation-vii,Unknown,None,None
+808,Meltan,Steel,Generation-vii,Unknown,None,None
+809,Melmetal,Steel,Generation-vii,Unknown,None,None
+810,Grookey,Grass,Generation-viii,Unknown,Grookey,"Thwackey, Rillaboom"
+811,Thwackey,Grass,Generation-viii,Unknown,Grookey,"Thwackey, Rillaboom"
+812,Rillaboom,Grass,Generation-viii,Unknown,Grookey,"Thwackey, Rillaboom"
+813,Scorbunny,Fire,Generation-viii,Unknown,Scorbunny,"Raboot, Cinderace"
+814,Raboot,Fire,Generation-viii,Unknown,Scorbunny,"Raboot, Cinderace"
+815,Cinderace,Fire,Generation-viii,Unknown,Scorbunny,"Raboot, Cinderace"
+816,Sobble,Water,Generation-viii,Unknown,Sobble,"Drizzile, Inteleon"
+817,Drizzile,Water,Generation-viii,Unknown,Sobble,"Drizzile, Inteleon"
+818,Inteleon,Water,Generation-viii,Unknown,Sobble,"Drizzile, Inteleon"
+819,Skwovet,Normal,Generation-viii,Unknown,Skwovet,Greedent
+820,Greedent,Normal,Generation-viii,Unknown,Skwovet,Greedent
+821,Rookidee,Flying,Generation-viii,Unknown,Rookidee,"Corvisquire, Corviknight"
+822,Corvisquire,Flying,Generation-viii,Unknown,Rookidee,"Corvisquire, Corviknight"
+823,Corviknight,"Flying, Steel",Generation-viii,Unknown,Rookidee,"Corvisquire, Corviknight"
+824,Blipbug,Bug,Generation-viii,Unknown,Blipbug,"Dottler, Orbeetle"
+825,Dottler,"Bug, Psychic",Generation-viii,Unknown,Blipbug,"Dottler, Orbeetle"
+826,Orbeetle,"Bug, Psychic",Generation-viii,Unknown,Blipbug,"Dottler, Orbeetle"
+827,Nickit,Dark,Generation-viii,Unknown,Nickit,Thievul
+828,Thievul,Dark,Generation-viii,Unknown,Nickit,Thievul
+829,Gossifleur,Grass,Generation-viii,Unknown,Gossifleur,Eldegoss
+830,Eldegoss,Grass,Generation-viii,Unknown,Gossifleur,Eldegoss
+831,Wooloo,Normal,Generation-viii,Unknown,Wooloo,Dubwool
+832,Dubwool,Normal,Generation-viii,Unknown,Wooloo,Dubwool
+833,Chewtle,Water,Generation-viii,Unknown,Chewtle,Drednaw
+834,Drednaw,"Water, Rock",Generation-viii,Unknown,Chewtle,Drednaw
+835,Yamper,Electric,Generation-viii,Unknown,Yamper,Boltund
+836,Boltund,Electric,Generation-viii,Unknown,Yamper,Boltund
+837,Rolycoly,Rock,Generation-viii,Unknown,Rolycoly,"Carkol, Coalossal"
+838,Carkol,"Rock, Fire",Generation-viii,Unknown,Rolycoly,"Carkol, Coalossal"
+839,Coalossal,"Rock, Fire",Generation-viii,Unknown,Rolycoly,"Carkol, Coalossal"
+840,Applin,"Grass, Dragon",Generation-viii,Unknown,Applin,Flapple
+841,Flapple,"Grass, Dragon",Generation-viii,Unknown,Applin,Flapple
+842,Appletun,"Grass, Dragon",Generation-viii,Unknown,Applin,Flapple
+843,Silicobra,Ground,Generation-viii,Unknown,Silicobra,Sandaconda
+844,Sandaconda,Ground,Generation-viii,Unknown,Silicobra,Sandaconda
+845,Cramorant,"Flying, Water",Generation-viii,Unknown,None,None
+846,Arrokuda,Water,Generation-viii,Unknown,Arrokuda,Barraskewda
+847,Barraskewda,Water,Generation-viii,Unknown,Arrokuda,Barraskewda
+848,Toxel,"Electric, Poison",Generation-viii,Unknown,Toxel,Toxtricity
+849,Toxtricity-amped,"Electric, Poison",Generation-viii,Unknown,Toxel,Toxtricity
+850,Sizzlipede,"Fire, Bug",Generation-viii,Unknown,Sizzlipede,Centiskorch
+851,Centiskorch,"Fire, Bug",Generation-viii,Unknown,Sizzlipede,Centiskorch
+852,Clobbopus,Fighting,Generation-viii,Unknown,Clobbopus,Grapploct
+853,Grapploct,Fighting,Generation-viii,Unknown,Clobbopus,Grapploct
+854,Sinistea,Ghost,Generation-viii,Unknown,Sinistea,Polteageist
+855,Polteageist,Ghost,Generation-viii,Unknown,Sinistea,Polteageist
+856,Hatenna,Psychic,Generation-viii,Unknown,Hatenna,"Hattrem, Hatterene"
+857,Hattrem,Psychic,Generation-viii,Unknown,Hatenna,"Hattrem, Hatterene"
+858,Hatterene,"Psychic, Fairy",Generation-viii,Unknown,Hatenna,"Hattrem, Hatterene"
+859,Impidimp,"Dark, Fairy",Generation-viii,Unknown,Impidimp,"Morgrem, Grimmsnarl"
+860,Morgrem,"Dark, Fairy",Generation-viii,Unknown,Impidimp,"Morgrem, Grimmsnarl"
+861,Grimmsnarl,"Dark, Fairy",Generation-viii,Unknown,Impidimp,"Morgrem, Grimmsnarl"
+862,Obstagoon,"Dark, Normal",Generation-viii,Unknown,Zigzagoon,"Linoone, Obstagoon"
+863,Perrserker,Steel,Generation-viii,Unknown,Meowth,Persian
+864,Cursola,Ghost,Generation-viii,Unknown,Corsola,Cursola
+865,Sirfetchd,Fighting,Generation-viii,Unknown,Farfetchd,Sirfetchd
+866,Mr-rime,"Ice, Psychic",Generation-viii,Unknown,Mime-jr,"Mr-mime, Mr-rime"
+867,Runerigus,"Ground, Ghost",Generation-viii,Unknown,Yamask,Cofagrigus
+868,Milcery,Fairy,Generation-viii,Unknown,Milcery,Alcremie
+869,Alcremie,Fairy,Generation-viii,Unknown,Milcery,Alcremie
+870,Falinks,Fighting,Generation-viii,Unknown,None,None
+871,Pincurchin,Electric,Generation-viii,Unknown,None,None
+872,Snom,"Ice, Bug",Generation-viii,Unknown,Snom,Frosmoth
+873,Frosmoth,"Ice, Bug",Generation-viii,Unknown,Snom,Frosmoth
+874,Stonjourner,Rock,Generation-viii,Unknown,None,None
+875,Eiscue-ice,Ice,Generation-viii,Unknown,None,None
+876,Indeedee-male,"Psychic, Normal",Generation-viii,Unknown,None,None
+877,Morpeko-full-belly,"Electric, Dark",Generation-viii,Unknown,None,None
+878,Cufant,Steel,Generation-viii,Unknown,Cufant,Copperajah
+879,Copperajah,Steel,Generation-viii,Unknown,Cufant,Copperajah
+880,Dracozolt,"Electric, Dragon",Generation-viii,Unknown,None,None
+881,Arctozolt,"Electric, Ice",Generation-viii,Unknown,None,None
+882,Dracovish,"Water, Dragon",Generation-viii,Unknown,None,None
+883,Arctovish,"Water, Ice",Generation-viii,Unknown,None,None
+884,Duraludon,"Steel, Dragon",Generation-viii,Unknown,Duraludon,Archaludon
+885,Dreepy,"Dragon, Ghost",Generation-viii,Unknown,Dreepy,"Drakloak, Dragapult"
+886,Drakloak,"Dragon, Ghost",Generation-viii,Unknown,Dreepy,"Drakloak, Dragapult"
+887,Dragapult,"Dragon, Ghost",Generation-viii,Unknown,Dreepy,"Drakloak, Dragapult"
+888,Zacian,Fairy,Generation-viii,Unknown,None,None
+889,Zamazenta,Fighting,Generation-viii,Unknown,None,None
+890,Eternatus,"Poison, Dragon",Generation-viii,Unknown,None,None
+891,Kubfu,Fighting,Generation-viii,Unknown,Kubfu,Urshifu
+892,Urshifu-single-strike,"Fighting, Dark",Generation-viii,Unknown,Kubfu,Urshifu
+893,Zarude,"Dark, Grass",Generation-viii,Unknown,None,None
+894,Regieleki,Electric,Generation-viii,Unknown,None,None
+895,Regidrago,Dragon,Generation-viii,Unknown,None,None
+896,Glastrier,Ice,Generation-viii,Unknown,None,None
+897,Spectrier,Ghost,Generation-viii,Unknown,None,None
+898,Calyrex,"Psychic, Grass",Generation-viii,Unknown,None,None
+899,Wyrdeer,"Normal, Psychic",Generation-viii,Unknown,Stantler,Wyrdeer
+900,Kleavor,"Bug, Rock",Generation-viii,Unknown,Scyther,Scizor
+901,Ursaluna,"Ground, Normal",Generation-viii,Unknown,Teddiursa,"Ursaring, Ursaluna"
+902,Basculegion-male,"Water, Ghost",Generation-viii,Unknown,Basculin,Basculegion
+903,Sneasler,"Fighting, Poison",Generation-viii,Unknown,Sneasel,Weavile
+904,Overqwil,"Dark, Poison",Generation-viii,Unknown,Qwilfish,Overqwil
+905,Enamorus-incarnate,"Fairy, Flying",Generation-viii,Unknown,None,None
+906,Sprigatito,Grass,Generation-ix,Unknown,Sprigatito,"Floragato, Meowscarada"
+907,Floragato,Grass,Generation-ix,Unknown,Sprigatito,"Floragato, Meowscarada"
+908,Meowscarada,"Grass, Dark",Generation-ix,Unknown,Sprigatito,"Floragato, Meowscarada"
+909,Fuecoco,Fire,Generation-ix,Unknown,Fuecoco,"Crocalor, Skeledirge"
+910,Crocalor,Fire,Generation-ix,Unknown,Fuecoco,"Crocalor, Skeledirge"
+911,Skeledirge,"Fire, Ghost",Generation-ix,Unknown,Fuecoco,"Crocalor, Skeledirge"
+912,Quaxly,Water,Generation-ix,Unknown,Quaxly,"Quaxwell, Quaquaval"
+913,Quaxwell,Water,Generation-ix,Unknown,Quaxly,"Quaxwell, Quaquaval"
+914,Quaquaval,"Water, Fighting",Generation-ix,Unknown,Quaxly,"Quaxwell, Quaquaval"
+915,Lechonk,Normal,Generation-ix,Unknown,Lechonk,Oinkologne
+916,Oinkologne-male,Normal,Generation-ix,Unknown,Lechonk,Oinkologne
+917,Tarountula,Bug,Generation-ix,Unknown,Tarountula,Spidops
+918,Spidops,Bug,Generation-ix,Unknown,Tarountula,Spidops
+919,Nymble,Bug,Generation-ix,Unknown,Nymble,Lokix
+920,Lokix,"Bug, Dark",Generation-ix,Unknown,Nymble,Lokix
+921,Pawmi,Electric,Generation-ix,Unknown,Pawmi,"Pawmo, Pawmot"
+922,Pawmo,"Electric, Fighting",Generation-ix,Unknown,Pawmi,"Pawmo, Pawmot"
+923,Pawmot,"Electric, Fighting",Generation-ix,Unknown,Pawmi,"Pawmo, Pawmot"
+924,Tandemaus,Normal,Generation-ix,Unknown,Tandemaus,Maushold
+925,Maushold-family-of-four,Normal,Generation-ix,Unknown,Tandemaus,Maushold
+926,Fidough,Fairy,Generation-ix,Unknown,Fidough,Dachsbun
+927,Dachsbun,Fairy,Generation-ix,Unknown,Fidough,Dachsbun
+928,Smoliv,"Grass, Normal",Generation-ix,Unknown,Smoliv,"Dolliv, Arboliva"
+929,Dolliv,"Grass, Normal",Generation-ix,Unknown,Smoliv,"Dolliv, Arboliva"
+930,Arboliva,"Grass, Normal",Generation-ix,Unknown,Smoliv,"Dolliv, Arboliva"
+931,Squawkabilly-green-plumage,"Normal, Flying",Generation-ix,Unknown,None,None
+932,Nacli,Rock,Generation-ix,Unknown,Nacli,"Naclstack, Garganacl"
+933,Naclstack,Rock,Generation-ix,Unknown,Nacli,"Naclstack, Garganacl"
+934,Garganacl,Rock,Generation-ix,Unknown,Nacli,"Naclstack, Garganacl"
+935,Charcadet,Fire,Generation-ix,Unknown,Charcadet,Armarouge
+936,Armarouge,"Fire, Psychic",Generation-ix,Unknown,Charcadet,Armarouge
+937,Ceruledge,"Fire, Ghost",Generation-ix,Unknown,Charcadet,Armarouge
+938,Tadbulb,Electric,Generation-ix,Unknown,Tadbulb,Bellibolt
+939,Bellibolt,Electric,Generation-ix,Unknown,Tadbulb,Bellibolt
+940,Wattrel,"Electric, Flying",Generation-ix,Unknown,Wattrel,Kilowattrel
+941,Kilowattrel,"Electric, Flying",Generation-ix,Unknown,Wattrel,Kilowattrel
+942,Maschiff,Dark,Generation-ix,Unknown,Maschiff,Mabosstiff
+943,Mabosstiff,Dark,Generation-ix,Unknown,Maschiff,Mabosstiff
+944,Shroodle,"Poison, Normal",Generation-ix,Unknown,Shroodle,Grafaiai
+945,Grafaiai,"Poison, Normal",Generation-ix,Unknown,Shroodle,Grafaiai
+946,Bramblin,"Grass, Ghost",Generation-ix,Unknown,Bramblin,Brambleghast
+947,Brambleghast,"Grass, Ghost",Generation-ix,Unknown,Bramblin,Brambleghast
+948,Toedscool,"Ground, Grass",Generation-ix,Unknown,Toedscool,Toedscruel
+949,Toedscruel,"Ground, Grass",Generation-ix,Unknown,Toedscool,Toedscruel
+950,Klawf,Rock,Generation-ix,Unknown,None,None
+951,Capsakid,Grass,Generation-ix,Unknown,Capsakid,Scovillain
+952,Scovillain,"Grass, Fire",Generation-ix,Unknown,Capsakid,Scovillain
+953,Rellor,Bug,Generation-ix,Unknown,Rellor,Rabsca
+954,Rabsca,"Bug, Psychic",Generation-ix,Unknown,Rellor,Rabsca
+955,Flittle,Psychic,Generation-ix,Unknown,Flittle,Espathra
+956,Espathra,Psychic,Generation-ix,Unknown,Flittle,Espathra
+957,Tinkatink,"Fairy, Steel",Generation-ix,Unknown,Tinkatink,"Tinkatuff, Tinkaton"
+958,Tinkatuff,"Fairy, Steel",Generation-ix,Unknown,Tinkatink,"Tinkatuff, Tinkaton"
+959,Tinkaton,"Fairy, Steel",Generation-ix,Unknown,Tinkatink,"Tinkatuff, Tinkaton"
+960,Wiglett,Water,Generation-ix,Unknown,Wiglett,Wugtrio
+961,Wugtrio,Water,Generation-ix,Unknown,Wiglett,Wugtrio
+962,Bombirdier,"Flying, Dark",Generation-ix,Unknown,None,None
+963,Finizen,Water,Generation-ix,Unknown,Finizen,Palafin
+964,Palafin-zero,Water,Generation-ix,Unknown,Finizen,Palafin
+965,Varoom,"Steel, Poison",Generation-ix,Unknown,Varoom,Revavroom
+966,Revavroom,"Steel, Poison",Generation-ix,Unknown,Varoom,Revavroom
+967,Cyclizar,"Dragon, Normal",Generation-ix,Unknown,None,None
+968,Orthworm,Steel,Generation-ix,Unknown,None,None
+969,Glimmet,"Rock, Poison",Generation-ix,Unknown,Glimmet,Glimmora
+970,Glimmora,"Rock, Poison",Generation-ix,Unknown,Glimmet,Glimmora
+971,Greavard,Ghost,Generation-ix,Unknown,Greavard,Houndstone
+972,Houndstone,Ghost,Generation-ix,Unknown,Greavard,Houndstone
+973,Flamigo,"Flying, Fighting",Generation-ix,Unknown,None,None
+974,Cetoddle,Ice,Generation-ix,Unknown,Cetoddle,Cetitan
+975,Cetitan,Ice,Generation-ix,Unknown,Cetoddle,Cetitan
+976,Veluza,"Water, Psychic",Generation-ix,Unknown,None,None
+977,Dondozo,Water,Generation-ix,Unknown,None,None
+978,Tatsugiri-curly,"Dragon, Water",Generation-ix,Unknown,None,None
+979,Annihilape,"Fighting, Ghost",Generation-ix,Unknown,Mankey,"Primeape, Annihilape"
+980,Clodsire,"Poison, Ground",Generation-ix,Unknown,Wooper,Quagsire
+981,Farigiraf,"Normal, Psychic",Generation-ix,Unknown,Girafarig,Farigiraf
+982,Dudunsparce-two-segment,Normal,Generation-ix,Unknown,Dunsparce,Dudunsparce
+983,Kingambit,"Dark, Steel",Generation-ix,Unknown,Pawniard,"Bisharp, Kingambit"
+984,Great-tusk,"Ground, Fighting",Generation-ix,Unknown,None,None
+985,Scream-tail,"Fairy, Psychic",Generation-ix,Unknown,None,None
+986,Brute-bonnet,"Grass, Dark",Generation-ix,Unknown,None,None
+987,Flutter-mane,"Ghost, Fairy",Generation-ix,Unknown,None,None
+988,Slither-wing,"Bug, Fighting",Generation-ix,Unknown,None,None
+989,Sandy-shocks,"Electric, Ground",Generation-ix,Unknown,None,None
+990,Iron-treads,"Ground, Steel",Generation-ix,Unknown,None,None
+991,Iron-bundle,"Ice, Water",Generation-ix,Unknown,None,None
+992,Iron-hands,"Fighting, Electric",Generation-ix,Unknown,None,None
+993,Iron-jugulis,"Dark, Flying",Generation-ix,Unknown,None,None
+994,Iron-moth,"Fire, Poison",Generation-ix,Unknown,None,None
+995,Iron-thorns,"Rock, Electric",Generation-ix,Unknown,None,None
+996,Frigibax,"Dragon, Ice",Generation-ix,Unknown,Frigibax,"Arctibax, Baxcalibur"
+997,Arctibax,"Dragon, Ice",Generation-ix,Unknown,Frigibax,"Arctibax, Baxcalibur"
+998,Baxcalibur,"Dragon, Ice",Generation-ix,Unknown,Frigibax,"Arctibax, Baxcalibur"
+999,Gimmighoul,Ghost,Generation-ix,Unknown,Gimmighoul,Gholdengo
+1000,Gholdengo,"Steel, Ghost",Generation-ix,Unknown,Gimmighoul,Gholdengo
+1001,Wo-chien,"Dark, Grass",Generation-ix,Unknown,None,None
+1002,Chien-pao,"Dark, Ice",Generation-ix,Unknown,None,None
+1003,Ting-lu,"Dark, Ground",Generation-ix,Unknown,None,None
+1004,Chi-yu,"Dark, Fire",Generation-ix,Unknown,None,None
+1005,Roaring-moon,"Dragon, Dark",Generation-ix,Unknown,None,None
+1006,Iron-valiant,"Fairy, Fighting",Generation-ix,Unknown,None,None
+1007,Koraidon,"Fighting, Dragon",Generation-ix,Unknown,None,None
+1008,Miraidon,"Electric, Dragon",Generation-ix,Unknown,None,None
+1009,Walking-wake,"Water, Dragon",Generation-ix,Unknown,None,None
+1010,Iron-leaves,"Grass, Psychic",Generation-ix,Unknown,None,None
+1011,Dipplin,"Grass, Dragon",Generation-ix,Unknown,Applin,Flapple
+1012,Poltchageist,"Grass, Ghost",Generation-ix,Unknown,Poltchageist,Sinistcha
+1013,Sinistcha,"Grass, Ghost",Generation-ix,Unknown,Poltchageist,Sinistcha
+1014,Okidogi,"Poison, Fighting",Generation-ix,Unknown,None,None
+1015,Munkidori,"Poison, Psychic",Generation-ix,Unknown,None,None
+1016,Fezandipiti,"Poison, Fairy",Generation-ix,Unknown,None,None
+1017,Ogerpon,Grass,Generation-ix,Unknown,None,None
+1018,Archaludon,"Steel, Dragon",Generation-ix,Unknown,Duraludon,Archaludon
+1019,Hydrapple,"Grass, Dragon",Generation-ix,Unknown,Applin,Flapple
+1020,Gouging-fire,"Fire, Dragon",Generation-ix,Unknown,None,None
+1021,Raging-bolt,"Electric, Dragon",Generation-ix,Unknown,None,None
+1022,Iron-boulder,"Rock, Psychic",Generation-ix,Unknown,None,None
+1023,Iron-crown,"Steel, Psychic",Generation-ix,Unknown,None,None
+1024,Terapagos,Normal,Generation-ix,Unknown,None,None
+1025,Pecharunt,"Poison, Ghost",Generation-ix,Unknown,None,None
+10001,Deoxys-attack,Psychic,Unknown,Unknown,None,None
+10002,Deoxys-defense,Psychic,Unknown,Unknown,None,None
+10003,Deoxys-speed,Psychic,Unknown,Unknown,None,None
+10004,Wormadam-sandy,"Bug, Ground",Unknown,Unknown,None,None
+10005,Wormadam-trash,"Bug, Steel",Unknown,Unknown,None,None
+10006,Shaymin-sky,"Grass, Flying",Unknown,Unknown,None,None
+10007,Giratina-origin,"Ghost, Dragon",Unknown,Unknown,None,None
+10008,Rotom-heat,"Electric, Fire",Unknown,Unknown,None,None
+10009,Rotom-wash,"Electric, Water",Unknown,Unknown,None,None
+10010,Rotom-frost,"Electric, Ice",Unknown,Unknown,None,None
+10011,Rotom-fan,"Electric, Flying",Unknown,Unknown,None,None
+10012,Rotom-mow,"Electric, Grass",Unknown,Unknown,None,None
+10013,Castform-sunny,Fire,Unknown,Unknown,None,None
+10014,Castform-rainy,Water,Unknown,Unknown,None,None
+10015,Castform-snowy,Ice,Unknown,Unknown,None,None
+10016,Basculin-blue-striped,Water,Unknown,Unknown,None,None
+10017,Darmanitan-zen,"Fire, Psychic",Unknown,Unknown,None,None
+10018,Meloetta-pirouette,"Normal, Fighting",Unknown,Unknown,None,None
+10019,Tornadus-therian,Flying,Unknown,Unknown,None,None
+10020,Thundurus-therian,"Electric, Flying",Unknown,Unknown,None,None
+10021,Landorus-therian,"Ground, Flying",Unknown,Unknown,None,None
+10022,Kyurem-black,"Dragon, Ice",Unknown,Unknown,None,None
+10023,Kyurem-white,"Dragon, Ice",Unknown,Unknown,None,None
+10024,Keldeo-resolute,"Water, Fighting",Unknown,Unknown,None,None
+10025,Meowstic-female,Psychic,Unknown,Unknown,None,None
+10026,Aegislash-blade,"Steel, Ghost",Unknown,Unknown,None,None
+10027,Pumpkaboo-small,"Ghost, Grass",Unknown,Unknown,None,None
+10028,Pumpkaboo-large,"Ghost, Grass",Unknown,Unknown,None,None
+10029,Pumpkaboo-super,"Ghost, Grass",Unknown,Unknown,None,None
+10030,Gourgeist-small,"Ghost, Grass",Unknown,Unknown,None,None
+10031,Gourgeist-large,"Ghost, Grass",Unknown,Unknown,None,None
+10032,Gourgeist-super,"Ghost, Grass",Unknown,Unknown,None,None
+10033,Venusaur-mega,"Grass, Poison",Unknown,Unknown,None,None
+10034,Charizard-mega-x,"Fire, Dragon",Unknown,Unknown,None,None
+10035,Charizard-mega-y,"Fire, Flying",Unknown,Unknown,None,None
+10036,Blastoise-mega,Water,Unknown,Unknown,None,None
+10037,Alakazam-mega,Psychic,Unknown,Unknown,None,None
+10038,Gengar-mega,"Ghost, Poison",Unknown,Unknown,None,None
+10039,Kangaskhan-mega,Normal,Unknown,Unknown,None,None
+10040,Pinsir-mega,"Bug, Flying",Unknown,Unknown,None,None
+10041,Gyarados-mega,"Water, Dark",Unknown,Unknown,None,None
+10042,Aerodactyl-mega,"Rock, Flying",Unknown,Unknown,None,None
+10043,Mewtwo-mega-x,"Psychic, Fighting",Unknown,Unknown,None,None
+10044,Mewtwo-mega-y,Psychic,Unknown,Unknown,None,None
+10045,Ampharos-mega,"Electric, Dragon",Unknown,Unknown,None,None
+10046,Scizor-mega,"Bug, Steel",Unknown,Unknown,None,None
+10047,Heracross-mega,"Bug, Fighting",Unknown,Unknown,None,None
+10048,Houndoom-mega,"Dark, Fire",Unknown,Unknown,None,None
+10049,Tyranitar-mega,"Rock, Dark",Unknown,Unknown,None,None
+10050,Blaziken-mega,"Fire, Fighting",Unknown,Unknown,None,None
+10051,Gardevoir-mega,"Psychic, Fairy",Unknown,Unknown,None,None
+10052,Mawile-mega,"Steel, Fairy",Unknown,Unknown,None,None
+10053,Aggron-mega,Steel,Unknown,Unknown,None,None
+10054,Medicham-mega,"Fighting, Psychic",Unknown,Unknown,None,None
+10055,Manectric-mega,Electric,Unknown,Unknown,None,None
+10056,Banette-mega,Ghost,Unknown,Unknown,None,None
+10057,Absol-mega,Dark,Unknown,Unknown,None,None
+10058,Garchomp-mega,"Dragon, Ground",Unknown,Unknown,None,None
+10059,Lucario-mega,"Fighting, Steel",Unknown,Unknown,None,None
+10060,Abomasnow-mega,"Grass, Ice",Unknown,Unknown,None,None
+10061,Floette-eternal,Fairy,Unknown,Unknown,None,None
+10062,Latias-mega,"Dragon, Psychic",Unknown,Unknown,None,None
+10063,Latios-mega,"Dragon, Psychic",Unknown,Unknown,None,None
+10064,Swampert-mega,"Water, Ground",Unknown,Unknown,None,None
+10065,Sceptile-mega,"Grass, Dragon",Unknown,Unknown,None,None
+10066,Sableye-mega,"Dark, Ghost",Unknown,Unknown,None,None
+10067,Altaria-mega,"Dragon, Fairy",Unknown,Unknown,None,None
+10068,Gallade-mega,"Psychic, Fighting",Unknown,Unknown,None,None
+10069,Audino-mega,"Normal, Fairy",Unknown,Unknown,None,None
+10070,Sharpedo-mega,"Water, Dark",Unknown,Unknown,None,None
+10071,Slowbro-mega,"Water, Psychic",Unknown,Unknown,None,None
+10072,Steelix-mega,"Steel, Ground",Unknown,Unknown,None,None
+10073,Pidgeot-mega,"Normal, Flying",Unknown,Unknown,None,None
+10074,Glalie-mega,Ice,Unknown,Unknown,None,None
+10075,Diancie-mega,"Rock, Fairy",Unknown,Unknown,None,None
+10076,Metagross-mega,"Steel, Psychic",Unknown,Unknown,None,None
+10077,Kyogre-primal,Water,Unknown,Unknown,None,None
+10078,Groudon-primal,"Ground, Fire",Unknown,Unknown,None,None
+10079,Rayquaza-mega,"Dragon, Flying",Unknown,Unknown,None,None
+10080,Pikachu-rock-star,Electric,Unknown,Unknown,None,None
+10081,Pikachu-belle,Electric,Unknown,Unknown,None,None
+10082,Pikachu-pop-star,Electric,Unknown,Unknown,None,None
+10083,Pikachu-phd,Electric,Unknown,Unknown,None,None
+10084,Pikachu-libre,Electric,Unknown,Unknown,None,None
+10085,Pikachu-cosplay,Electric,Unknown,Unknown,None,None
+10086,Hoopa-unbound,"Psychic, Dark",Unknown,Unknown,None,None
+10087,Camerupt-mega,"Fire, Ground",Unknown,Unknown,None,None
+10088,Lopunny-mega,"Normal, Fighting",Unknown,Unknown,None,None
+10089,Salamence-mega,"Dragon, Flying",Unknown,Unknown,None,None
+10090,Beedrill-mega,"Bug, Poison",Unknown,Unknown,None,None
+10091,Rattata-alola,"Dark, Normal",Unknown,Unknown,None,None
+10092,Raticate-alola,"Dark, Normal",Unknown,Unknown,None,None
+10093,Raticate-totem-alola,"Dark, Normal",Unknown,Unknown,None,None
+10094,Pikachu-original-cap,Electric,Unknown,Unknown,None,None
+10095,Pikachu-hoenn-cap,Electric,Unknown,Unknown,None,None
+10096,Pikachu-sinnoh-cap,Electric,Unknown,Unknown,None,None
+10097,Pikachu-unova-cap,Electric,Unknown,Unknown,None,None
+10098,Pikachu-kalos-cap,Electric,Unknown,Unknown,None,None
+10099,Pikachu-alola-cap,Electric,Unknown,Unknown,None,None
+10100,Raichu-alola,"Electric, Psychic",Unknown,Unknown,None,None
+10101,Sandshrew-alola,"Ice, Steel",Unknown,Unknown,None,None
+10102,Sandslash-alola,"Ice, Steel",Unknown,Unknown,None,None
+10103,Vulpix-alola,Ice,Unknown,Unknown,None,None
+10104,Ninetales-alola,"Ice, Fairy",Unknown,Unknown,None,None
+10105,Diglett-alola,"Ground, Steel",Unknown,Unknown,None,None
+10106,Dugtrio-alola,"Ground, Steel",Unknown,Unknown,None,None
+10107,Meowth-alola,Dark,Unknown,Unknown,None,None
+10108,Persian-alola,Dark,Unknown,Unknown,None,None
+10109,Geodude-alola,"Rock, Electric",Unknown,Unknown,None,None
+10110,Graveler-alola,"Rock, Electric",Unknown,Unknown,None,None
+10111,Golem-alola,"Rock, Electric",Unknown,Unknown,None,None
+10112,Grimer-alola,"Poison, Dark",Unknown,Unknown,None,None
+10113,Muk-alola,"Poison, Dark",Unknown,Unknown,None,None
+10114,Exeggutor-alola,"Grass, Dragon",Unknown,Unknown,None,None
+10115,Marowak-alola,"Fire, Ghost",Unknown,Unknown,None,None
+10116,Greninja-battle-bond,"Water, Dark",Unknown,Unknown,None,None
+10117,Greninja-ash,"Water, Dark",Unknown,Unknown,None,None
+10118,Zygarde-10-power-construct,"Dragon, Ground",Unknown,Unknown,None,None
+10119,Zygarde-50-power-construct,"Dragon, Ground",Unknown,Unknown,None,None
+10120,Zygarde-complete,"Dragon, Ground",Unknown,Unknown,None,None
+10121,Gumshoos-totem,Normal,Unknown,Unknown,None,None
+10122,Vikavolt-totem,"Bug, Electric",Unknown,Unknown,None,None
+10123,Oricorio-pom-pom,"Electric, Flying",Unknown,Unknown,None,None
+10124,Oricorio-pau,"Psychic, Flying",Unknown,Unknown,None,None
+10125,Oricorio-sensu,"Ghost, Flying",Unknown,Unknown,None,None
+10126,Lycanroc-midnight,Rock,Unknown,Unknown,None,None
+10127,Wishiwashi-school,Water,Unknown,Unknown,None,None
+10128,Lurantis-totem,Grass,Unknown,Unknown,None,None
+10129,Salazzle-totem,"Poison, Fire",Unknown,Unknown,None,None
+10130,Minior-orange-meteor,"Rock, Flying",Unknown,Unknown,None,None
+10131,Minior-yellow-meteor,"Rock, Flying",Unknown,Unknown,None,None
+10132,Minior-green-meteor,"Rock, Flying",Unknown,Unknown,None,None
+10133,Minior-blue-meteor,"Rock, Flying",Unknown,Unknown,None,None
+10134,Minior-indigo-meteor,"Rock, Flying",Unknown,Unknown,None,None
+10135,Minior-violet-meteor,"Rock, Flying",Unknown,Unknown,None,None
+10136,Minior-red,"Rock, Flying",Unknown,Unknown,None,None
+10137,Minior-orange,"Rock, Flying",Unknown,Unknown,None,None
+10138,Minior-yellow,"Rock, Flying",Unknown,Unknown,None,None
+10139,Minior-green,"Rock, Flying",Unknown,Unknown,None,None
+10140,Minior-blue,"Rock, Flying",Unknown,Unknown,None,None
+10141,Minior-indigo,"Rock, Flying",Unknown,Unknown,None,None
+10142,Minior-violet,"Rock, Flying",Unknown,Unknown,None,None
+10143,Mimikyu-busted,"Ghost, Fairy",Unknown,Unknown,None,None
+10144,Mimikyu-totem-disguised,"Ghost, Fairy",Unknown,Unknown,None,None
+10145,Mimikyu-totem-busted,"Ghost, Fairy",Unknown,Unknown,None,None
+10146,Kommo-o-totem,"Dragon, Fighting",Unknown,Unknown,None,None
+10147,Magearna-original,"Steel, Fairy",Unknown,Unknown,None,None
+10148,Pikachu-partner-cap,Electric,Unknown,Unknown,None,None
+10149,Marowak-totem,"Fire, Ghost",Unknown,Unknown,None,None
+10150,Ribombee-totem,"Bug, Fairy",Unknown,Unknown,None,None
+10151,Rockruff-own-tempo,Rock,Unknown,Unknown,None,None
+10152,Lycanroc-dusk,Rock,Unknown,Unknown,None,None
+10153,Araquanid-totem,"Water, Bug",Unknown,Unknown,None,None
+10154,Togedemaru-totem,"Electric, Steel",Unknown,Unknown,None,None
+10155,Necrozma-dusk,"Psychic, Steel",Unknown,Unknown,None,None
+10156,Necrozma-dawn,"Psychic, Ghost",Unknown,Unknown,None,None
+10157,Necrozma-ultra,"Psychic, Dragon",Unknown,Unknown,None,None
+10158,Pikachu-starter,Electric,Unknown,Unknown,None,None
+10159,Eevee-starter,Normal,Unknown,Unknown,None,None
+10160,Pikachu-world-cap,Electric,Unknown,Unknown,None,None
+10161,Meowth-galar,Steel,Unknown,Unknown,None,None
+10162,Ponyta-galar,Psychic,Unknown,Unknown,None,None
+10163,Rapidash-galar,"Psychic, Fairy",Unknown,Unknown,None,None
+10164,Slowpoke-galar,Psychic,Unknown,Unknown,None,None
+10165,Slowbro-galar,"Poison, Psychic",Unknown,Unknown,None,None
+10166,Farfetchd-galar,Fighting,Unknown,Unknown,None,None
+10167,Weezing-galar,"Poison, Fairy",Unknown,Unknown,None,None
+10168,Mr-mime-galar,"Ice, Psychic",Unknown,Unknown,None,None
+10169,Articuno-galar,"Psychic, Flying",Unknown,Unknown,None,None
+10170,Zapdos-galar,"Fighting, Flying",Unknown,Unknown,None,None
+10171,Moltres-galar,"Dark, Flying",Unknown,Unknown,None,None
+10172,Slowking-galar,"Poison, Psychic",Unknown,Unknown,None,None
+10173,Corsola-galar,Ghost,Unknown,Unknown,None,None
+10174,Zigzagoon-galar,"Dark, Normal",Unknown,Unknown,None,None
+10175,Linoone-galar,"Dark, Normal",Unknown,Unknown,None,None
+10176,Darumaka-galar,Ice,Unknown,Unknown,None,None
+10177,Darmanitan-galar-standard,Ice,Unknown,Unknown,None,None
+10178,Darmanitan-galar-zen,"Ice, Fire",Unknown,Unknown,None,None
+10179,Yamask-galar,"Ground, Ghost",Unknown,Unknown,None,None
+10180,Stunfisk-galar,"Ground, Steel",Unknown,Unknown,None,None
+10181,Zygarde-10,"Dragon, Ground",Unknown,Unknown,None,None
+10182,Cramorant-gulping,"Flying, Water",Unknown,Unknown,None,None
+10183,Cramorant-gorging,"Flying, Water",Unknown,Unknown,None,None
+10184,Toxtricity-low-key,"Electric, Poison",Unknown,Unknown,None,None
+10185,Eiscue-noice,Ice,Unknown,Unknown,None,None
+10186,Indeedee-female,"Psychic, Normal",Unknown,Unknown,None,None
+10187,Morpeko-hangry,"Electric, Dark",Unknown,Unknown,None,None
+10188,Zacian-crowned,"Fairy, Steel",Unknown,Unknown,None,None
+10189,Zamazenta-crowned,"Fighting, Steel",Unknown,Unknown,None,None
+10190,Eternatus-eternamax,"Poison, Dragon",Unknown,Unknown,None,None
+10191,Urshifu-rapid-strike,"Fighting, Water",Unknown,Unknown,None,None
+10192,Zarude-dada,"Dark, Grass",Unknown,Unknown,None,None
+10193,Calyrex-ice,"Psychic, Ice",Unknown,Unknown,None,None
+10194,Calyrex-shadow,"Psychic, Ghost",Unknown,Unknown,None,None
+10195,Venusaur-gmax,"Grass, Poison",Unknown,Unknown,None,None
+10196,Charizard-gmax,"Fire, Flying",Unknown,Unknown,None,None
+10197,Blastoise-gmax,Water,Unknown,Unknown,None,None
+10198,Butterfree-gmax,"Bug, Flying",Unknown,Unknown,None,None
+10199,Pikachu-gmax,Electric,Unknown,Unknown,None,None
+10200,Meowth-gmax,Normal,Unknown,Unknown,None,None
+10201,Machamp-gmax,Fighting,Unknown,Unknown,None,None
+10202,Gengar-gmax,"Ghost, Poison",Unknown,Unknown,None,None
+10203,Kingler-gmax,Water,Unknown,Unknown,None,None
+10204,Lapras-gmax,"Water, Ice",Unknown,Unknown,None,None
+10205,Eevee-gmax,Normal,Unknown,Unknown,None,None
+10206,Snorlax-gmax,Normal,Unknown,Unknown,None,None
+10207,Garbodor-gmax,Poison,Unknown,Unknown,None,None
+10208,Melmetal-gmax,Steel,Unknown,Unknown,None,None
+10209,Rillaboom-gmax,Grass,Unknown,Unknown,None,None
+10210,Cinderace-gmax,Fire,Unknown,Unknown,None,None
+10211,Inteleon-gmax,Water,Unknown,Unknown,None,None
+10212,Corviknight-gmax,"Flying, Steel",Unknown,Unknown,None,None
+10213,Orbeetle-gmax,"Bug, Psychic",Unknown,Unknown,None,None
+10214,Drednaw-gmax,"Water, Rock",Unknown,Unknown,None,None
+10215,Coalossal-gmax,"Rock, Fire",Unknown,Unknown,None,None
+10216,Flapple-gmax,"Grass, Dragon",Unknown,Unknown,None,None
+10217,Appletun-gmax,"Grass, Dragon",Unknown,Unknown,None,None
+10218,Sandaconda-gmax,Ground,Unknown,Unknown,None,None
+10219,Toxtricity-amped-gmax,"Electric, Poison",Unknown,Unknown,None,None
+10220,Centiskorch-gmax,"Fire, Bug",Unknown,Unknown,None,None
+10221,Hatterene-gmax,"Psychic, Fairy",Unknown,Unknown,None,None
+10222,Grimmsnarl-gmax,"Dark, Fairy",Unknown,Unknown,None,None
+10223,Alcremie-gmax,Fairy,Unknown,Unknown,None,None
+10224,Copperajah-gmax,Steel,Unknown,Unknown,None,None
+10225,Duraludon-gmax,"Steel, Dragon",Unknown,Unknown,None,None
+10226,Urshifu-single-strike-gmax,"Fighting, Dark",Unknown,Unknown,None,None
+10227,Urshifu-rapid-strike-gmax,"Fighting, Water",Unknown,Unknown,None,None
+10228,Toxtricity-low-key-gmax,"Electric, Poison",Unknown,Unknown,None,None
+10229,Growlithe-hisui,"Fire, Rock",Unknown,Unknown,None,None
+10230,Arcanine-hisui,"Fire, Rock",Unknown,Unknown,None,None
+10231,Voltorb-hisui,"Electric, Grass",Unknown,Unknown,None,None
+10232,Electrode-hisui,"Electric, Grass",Unknown,Unknown,None,None
+10233,Typhlosion-hisui,"Fire, Ghost",Unknown,Unknown,None,None
+10234,Qwilfish-hisui,"Dark, Poison",Unknown,Unknown,None,None
+10235,Sneasel-hisui,"Fighting, Poison",Unknown,Unknown,None,None
+10236,Samurott-hisui,"Water, Dark",Unknown,Unknown,None,None
+10237,Lilligant-hisui,"Grass, Fighting",Unknown,Unknown,None,None
+10238,Zorua-hisui,"Normal, Ghost",Unknown,Unknown,None,None
+10239,Zoroark-hisui,"Normal, Ghost",Unknown,Unknown,None,None
+10240,Braviary-hisui,"Psychic, Flying",Unknown,Unknown,None,None
+10241,Sliggoo-hisui,"Steel, Dragon",Unknown,Unknown,None,None
+10242,Goodra-hisui,"Steel, Dragon",Unknown,Unknown,None,None
+10243,Avalugg-hisui,"Ice, Rock",Unknown,Unknown,None,None
+10244,Decidueye-hisui,"Grass, Fighting",Unknown,Unknown,None,None
+10245,Dialga-origin,"Steel, Dragon",Unknown,Unknown,None,None
+10246,Palkia-origin,"Water, Dragon",Unknown,Unknown,None,None
+10247,Basculin-white-striped,Water,Unknown,Unknown,None,None
+10248,Basculegion-female,"Water, Ghost",Unknown,Unknown,None,None
+10249,Enamorus-therian,"Fairy, Flying",Unknown,Unknown,None,None
+10250,Tauros-paldea-combat-breed,Fighting,Unknown,Unknown,None,None
+10251,Tauros-paldea-blaze-breed,"Fighting, Fire",Unknown,Unknown,None,None
+10252,Tauros-paldea-aqua-breed,"Fighting, Water",Unknown,Unknown,None,None
+10253,Wooper-paldea,"Poison, Ground",Unknown,Unknown,None,None
+10254,Oinkologne-female,Normal,Unknown,Unknown,None,None
+10255,Dudunsparce-three-segment,Normal,Unknown,Unknown,None,None
+10256,Palafin-hero,Water,Unknown,Unknown,None,None
+10257,Maushold-family-of-three,Normal,Unknown,Unknown,None,None
+10258,Tatsugiri-droopy,"Dragon, Water",Unknown,Unknown,None,None
+10259,Tatsugiri-stretchy,"Dragon, Water",Unknown,Unknown,None,None
+10260,Squawkabilly-blue-plumage,"Normal, Flying",Unknown,Unknown,None,None
+10261,Squawkabilly-yellow-plumage,"Normal, Flying",Unknown,Unknown,None,None
+10262,Squawkabilly-white-plumage,"Normal, Flying",Unknown,Unknown,None,None
+10263,Gimmighoul-roaming,Ghost,Unknown,Unknown,None,None
+10264,Koraidon-limited-build,"Fighting, Dragon",Unknown,Unknown,None,None
+10265,Koraidon-sprinting-build,"Fighting, Dragon",Unknown,Unknown,None,None
+10266,Koraidon-swimming-build,"Fighting, Dragon",Unknown,Unknown,None,None
+10267,Koraidon-gliding-build,"Fighting, Dragon",Unknown,Unknown,None,None
+10268,Miraidon-low-power-mode,"Electric, Dragon",Unknown,Unknown,None,None
+10269,Miraidon-drive-mode,"Electric, Dragon",Unknown,Unknown,None,None
+10270,Miraidon-aquatic-mode,"Electric, Dragon",Unknown,Unknown,None,None
+10271,Miraidon-glide-mode,"Electric, Dragon",Unknown,Unknown,None,None
+10272,Ursaluna-bloodmoon,"Ground, Normal",Unknown,Unknown,None,None
+10273,Ogerpon-wellspring-mask,"Grass, Water",Unknown,Unknown,None,None
+10274,Ogerpon-hearthflame-mask,"Grass, Fire",Unknown,Unknown,None,None
+10275,Ogerpon-cornerstone-mask,"Grass, Rock",Unknown,Unknown,None,None
+10276,Terapagos-terastal,Normal,Unknown,Unknown,None,None
+10277,Terapagos-stellar,Normal,Unknown,Unknown,None,None
