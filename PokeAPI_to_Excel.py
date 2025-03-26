@@ -37,10 +37,18 @@ def fetch_pokemon_data(pokemon_name):
             # Generation
             generation_id = species_data["generation"]["name"].capitalize()
 
-            # Region (if exists)
-            region = species_data.get("region", None)
-            region_name = region["name"].capitalize() if region else "Unknown"
+            generation_map = {
+                "generation-i": "Kanto", "generation-ii": "Johto",
+                "generation-iii": "Hoenn", "generation-iv": "Sinnoh",
+                "generation-v": "Unova", "generation-vi": "Kalos",
+                "generation-vii": "Alola", "generation-viii": "Galar",
+                "generation-ix": "Paldea"
+            }
+            region_name = generation_map.get(generation_id, "Unknown")
             
+            """region = species_data.get("region", None)
+            region_name = region["name"].capitalize() if region else "Unknown"
+            """
             # Evolution Chain
             evolution_chain_url = species_data["evolution_chain"]["url"]
             evolution_response = requests.get(evolution_chain_url)
