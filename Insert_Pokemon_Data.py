@@ -2,9 +2,14 @@ import psycopg2
 import pandas as pd
 
 def insert_data_from_excel():
-    # Read data from Excel files
-    pokemon_df = pd.read_excel(r'Database-Pokemon/all_pokemon_data.csv', engine='openpyxl')
+    # Read data from csv files
+    pokemon_df = pd.read_csv(r'Database-Pokemon/all_pokemon_data.csv', engine='openpyxl')
 
+    pokemon_df["Generation"] = pokemon_df["Generation"].astype(int)
+    pokemon_df["Types"] = pokemon_df["Types"].astype(int)
+    print(pokemon_df["Types"])
+    print(pokemon_df["Generation"])
+    
     conn = None  # Initialize connection variable
     cursor = None  # Initialize cursor variable
 
@@ -21,9 +26,13 @@ def insert_data_from_excel():
         
         for _, row in pokemon_df.iterrows():
             cursor.execute("""
-            INSERT INTO                
-            
-            """)
+            INSERT INTO pokemon (PokedexNumber, name, GenerationID) VALUES (%s, %s, %s);
+            """, (row['PokedexNumber'], row['name'], row['Generation']))
+        
+        for _, row in pokemon_df.iterrows():
+            cursor.execute("""
+            INSERT INTO  pokemon_type(PokedexNumber, name, GenerationID) VALUES (%s, %s, %s);
+            """, (row['PokedexNumber'], row['name'], row['Generation']))
         
 
         # Commit changes
