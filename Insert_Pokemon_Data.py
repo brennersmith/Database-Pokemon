@@ -1,54 +1,82 @@
 import psycopg2
 import pandas as pd
+import os
 
 def insert_data_from_excel():
-    # Read data from csv files
-    pokemon_df = pd.read_csv(r'Database-Pokemon/all_pokemon_data.csv', engine='openpyxl')
-
+    # Read data from CSV
+    file_path = r'C:\Users\adity\Desktop\GrizzHacks\Database-Pokemon\all_pokemon_data.csv'
+    pokemon_df = pd.read_csv(file_path)
+    print("Columns:", pokemon_df.columns.tolist())
+    print(pokemon_df.head(10))
+    
+    # Ensure correct data types
+    pokemon_df["Generation"] = pd.to_numeric(pokemon_df["Generation"], errors='coerce')
+    pokemon_df = pokemon_df.dropna(subset=["Generation"])
     pokemon_df["Generation"] = pokemon_df["Generation"].astype(int)
-    pokemon_df["Types"] = pokemon_df["Types"].astype(int)
-    print(pokemon_df["Types"])
+
+
+    
+    # Ensure that "Types" is properly formatted (if it's a list, it needs parsing)
+    if "TypeID" in pokemon_df.columns:
+        pokemon_df["TypeID"] = pokemon_df["TypeID"].astype(int)
+
     print(pokemon_df["Generation"])
     
-    conn = None  # Initialize connection variable
-    cursor = None  # Initialize cursor variable
+    conn = None
+    cursor = None
 
     try:
-        # Connect to PostgreSQL database
+        # Connect to PostgreSQL database (use environment variables instead of hardcoded password)
         conn = psycopg2.connect(
-            dbname="HW5",
+            dbname="Pokemon",
             user="postgres",
-            password="AdityaKurup",  # Replace with actual password
+            password="AdityaKurup",  # Store password in an environment variable
             host="localhost",
             port="5432"
         )
         cursor = conn.cursor()
-        
-        for _, row in pokemon_df.iterrows():
-            cursor.execute("""
-            INSERT INTO pokemon (PokedexNumber, name, GenerationID) VALUES (%s, %s, %s);
-            """, (row['PokedexNumber'], row['name'], row['Generation']))
-        
-        for _, row in pokemon_df.iterrows():
-            cursor.execute("""
-            INSERT INTO  pokemon_type(PokedexNumber, name, GenerationID) VALUES (%s, %s, %s);
-            """, (row['PokedexNumber'], row['name'], row['Generation']))
-        
 
-        # Commit changes
+        # Insert into pokemon table
+        for _, row in pokemon_df.iterrows():
+            cursor.execute("""
+                INSERT INTO pokemon (PokedexNumber, name, ) VALUES (%s, %s)
+                ON CONFLICT (PokedexNumber) DO NOTHING;
+            """, (row['pokedexnumber'], row['name'] ))
+        
+        # Insert into pokemon_type table
+        for _, row in pokemon_df.iterrows():
+            cursor.execute("""
+                INSERT INTO pokemon_type(PokedexNumber, TypeID) VALUES (%s, %s)
+                ON CONFLICT DO NOTHING;
+            """, (row['PokedexNumber'], row['TypeID']))
+        
+        # Insert into type table
+        for _, row in pokemon_df.iterrows():
+            cursor.execute("""
+                INSERT INTO type(TypeID, TypeName) VALUES (%s, %s)
+                ON CONFLICT (TypeID) DO NOTHING;
+            """, (row['TypeID'], row['TypeName']))
+        
+        # Insert into Generation table
+        for _, row in pokemon_df.iterrows():
+            cursor.execute("""
+                INSERT INTO Generation(GenerationID, RegionName) VALUES (%s, %s)
+                ON CONFLICT (GenerationID) DO NOTHING;
+            """, (row['Generation'], row['RegionName']))
+        
         conn.commit()
         print("Data inserted successfully")
 
     except Exception as e:
         print(f"Error: {e}")
         if conn:
-            conn.rollback()  # Rollback changes only if connection exists
+            conn.rollback()
 
     finally:
         if cursor:
-            cursor.close()  # Close cursor only if it was created
+            cursor.close()
         if conn:
-            conn.close()  # Close connection only if it was established
+            conn.close()
 
-# Call the function to insert data from Excel files
+# Call the function
 insert_data_from_excel()
