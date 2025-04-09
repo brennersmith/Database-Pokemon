@@ -14,7 +14,7 @@ generation_to_region = {
 }
 
 # Load the CSV file
-csv_file = "all_pokemon_data.csv"  # Replace with your actual filename
+csv_file = "all_pokemon_data.csv"  
 df = pd.read_csv(csv_file)
 
 # Update the Region column based on the Generation column

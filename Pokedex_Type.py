@@ -25,7 +25,7 @@ def insert_data_from_excel():
                     INSERT INTO pokemon_type(PokedexNumber, TypeID) 
                     VALUES (%s, %s)
                     ON CONFLICT (PokedexNumber, TypeID) DO NOTHING;
-                """, (row['PokedexNumber'], int(type_id)))  # Convert to integer for TypeID
+                """, (row['PokedexNumber'], int(type_id))) 
 
         conn.commit()
         print("Bulk insert completed!")

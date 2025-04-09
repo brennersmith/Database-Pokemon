@@ -21,16 +21,17 @@ def create_table():
             PokedexNumber SERIAL PRIMARY KEY,
             name VARCHAR(50),
             GenerationID INTEGER
+            FOREIGN KEY (GenerationID) REFERENCES Generation(GenerationID) ON DELETE SET NULL
         );
     """
     
     create_Pokemon_Type_table ="""
         CREATE TABLE IF NOT EXISTS pokemon_type(
-            PokedexNumber INTEGER
-            TypeID INTEGER
-            PRIMARY KEY (PokedexNumber, TypeID)
-            FOREIGN KEY (PokedexNumber) REFERENCES Pokemon(PokedexNumber) ON DELETE CASCADE
-            FOREIGN KEY (TypeID) REFERENCES Type(TypeID) ON DELETE CASCADE
+            PokedexNumber INTEGER,
+            TypeID INTEGER,
+            PRIMARY KEY (PokedexNumber, TypeID),
+            FOREIGN KEY (PokedexNumber) REFERENCES pokemon(PokedexNumber) ON DELETE CASCADE,
+            FOREIGN KEY (TypeID) REFERENCES type(TypeID) ON DELETE CASCADE
         );
     """
     
