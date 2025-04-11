@@ -15,7 +15,7 @@ def insert_type_data():
         conn = psycopg2.connect(
             dbname="Pokemon",
             user="postgres",
-            password="AdityaKurup",
+            password="2905",
             host="localhost",
             port="5432"
         )

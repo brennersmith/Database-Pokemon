@@ -1,52 +1,64 @@
 import psycopg2
 import pandas as pd
 
-print("Script started!")
-
 def insert_data_from_excel():
-    file_path = r'C:\Users\adity\Desktop\GrizzHacks\Database-Pokemon\all_pokemon_data.csv'
+    file_path = r'C:\Users\Spencer Roeren\Downloads\Code - Copy\Database-Pokemon\all_pokemon_data.csv'
     pokemon_df = pd.read_csv(file_path)
-
 
     conn = psycopg2.connect(
         dbname="Pokemon",
         user="postgres",
-        password="AdityaKurup",
+        password="2905",
         host="localhost",
         port="5432"
     )
     cursor = conn.cursor()
+
+    # Map the generation strings to integer IDs
     generation_map = {
-    'Generation-i': 1,
-    'Generation-ii': 2,
-    'Generation-iii': 3,
-    'Generation-iv': 4,
-    'Generation-v': 5,
-    'Generation-vi': 6,
-    'Generation-vii': 7,
-    'Generation-viii': 8,
-    'Generation-ix': 9
+        'Generation-i': 1,
+        'Generation-ii': 2,
+        'Generation-iii': 3,
+        'Generation-iv': 4,
+        'Generation-v': 5,
+        'Generation-vi': 6,
+        'Generation-vii': 7,
+        'Generation-viii': 8,
+        'Generation-ix': 9
     }
 
     # Apply the mapping
     pokemon_df['Generation'] = pokemon_df['Generation'].map(generation_map)
+
     # Drop rows where generation is still NaN after mapping
     pokemon_df = pokemon_df.dropna(subset=['Generation'])
 
     try:
-        for _, row in pokemon_df.iterrows():
-            print(f"Inserting: {row['Pokedex Number']}, {row['Name']}, {row['Generation']}")
-            cursor.execute("""
-                INSERT INTO pokemon (pokedexnumber, name, generationid) 
-                VALUES (%s, %s, %s)
-                ON CONFLICT (pokedexnumber) DO NOTHING;
-            """, (row['Pokedex Number'], row['Name'], row['Generation']))
-
+        # 1. Insert into Generation table
         for _, row in pokemon_df.iterrows():
             cursor.execute("""
-                INSERT INTO Generation(GenerationID, RegionName) VALUES (%s, %s)
+                INSERT INTO Generation (GenerationID, RegionName)
+                VALUES (%s, %s)
                 ON CONFLICT (GenerationID) DO NOTHING;
             """, (row['Generation'], row['Region']))
+
+        # 2. Insert into Pokemon table
+        for _, row in pokemon_df.iterrows():
+            print(f"Inserting: #{row['Pokedex Number']}, Name={row['Name']}, Gen={row['Generation']}")
+
+            # Insert PokedexNumber, Name, GenerationID, and Evolution
+            cursor.execute("""
+                INSERT INTO pokemon (pokedexnumber, name, generationid, evolution)
+                VALUES (%s, %s, %s, %s)
+                ON CONFLICT (pokedexnumber) DO NOTHING;
+            """, (
+                row['Pokedex Number'],
+                row['Name'],
+                row['Generation'],
+                # We only store "Evolution" from CSV; ignoring "Previous Evolution"
+                row['Evolution']
+            ))
+
         conn.commit()
         print("Bulk insert completed!")
 
@@ -56,4 +68,7 @@ def insert_data_from_excel():
     finally:
         cursor.close()
         conn.close()
-insert_data_from_excel()
+
+if __name__ == "__main__":
+    print("Script started!")
+    insert_data_from_excel()
