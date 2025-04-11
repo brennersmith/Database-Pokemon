@@ -34,7 +34,7 @@ class PokedexGUI(tk.Tk):
         # Track whichever Pokémon is currently displayed (start with index=0)
         self.current_index = 0
 
-        # Build out the frames/labels in your layout
+        # Build out the frames/labels
         self.create_widgets()
         
         # Initialize the UI with the 1st Pokémon if data is available
@@ -43,8 +43,8 @@ class PokedexGUI(tk.Tk):
 
     def load_data_from_db(self):
         """
-        Connects to PostgreSQL and returns a DataFrame containing
-        Pokémon info joined with generation, type info, and a single 'Evolution' field.
+        Connect to PostgreSQL and returns a DataFrame containing
+        Pokémon info joined with generation, type info, and 'Evolution' field.
         """
         try:
             conn = psycopg2.connect(
@@ -86,10 +86,11 @@ class PokedexGUI(tk.Tk):
 
     def create_widgets(self):
         """
-        Constructs frames and labels as in your original layout, 
-        but only includes a single 'Evolution' label (no previous/next).
+        Same layout, but the Combobox is made searchable by:
+        - state="normal"
+        - binding <KeyRelease> for partial match filtering
         """
-        # Define fonts (change to any installed font you prefer)
+        # Fonts (change as you see fit)
         title_font = ("Comic Sans MS", 20, "bold")
         medium_font = ("Comic Sans MS", 16)
         small_font = ("Comic Sans MS", 12)
@@ -122,23 +123,26 @@ class PokedexGUI(tk.Tk):
         # Left Arrow button
         self.left_arrow_button = tk.Button(
             self.search_frame,
-            text="←",    # arrow symbol
+            text="←",    
             font=medium_font,
             command=self.show_previous_pokemon
         )
         self.left_arrow_button.grid(row=0, column=0, padx=5)
 
-        # Combobox for Pokémon names
+        # A "searchable" Combobox in the center
         self.search_var = tk.StringVar()
         self.search_box = ttk.Combobox(
             self.search_frame,
             textvariable=self.search_var,
             values=self.all_names,
-            state="readonly",
-            font=medium_font
+            font=medium_font,
+            state="normal"  # user can type
         )
         self.search_box.grid(row=0, column=1, columnspan=2, padx=5)
+
+        # Bind events:
         self.search_box.bind("<<ComboboxSelected>>", self.on_search_select)
+        self.search_box.bind("<KeyRelease>", self.on_search_key_release)
 
         # Right Arrow button
         self.right_arrow_button = tk.Button(
@@ -155,7 +159,6 @@ class PokedexGUI(tk.Tk):
         self.info_frame.rowconfigure([0, 1, 2], weight=1)
         self.info_frame.columnconfigure([0, 1], weight=1)
 
-        # Various Information
         self.pokedex_entry = tk.Label(self.info_frame, text="Pokedex Entry", font=medium_font)
         self.pokedex_entry.grid(row=0, column=0, columnspan=2, pady=5)
 
@@ -170,12 +173,39 @@ class PokedexGUI(tk.Tk):
         self.evolution_label.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
 
     def on_search_select(self, event):
-        """
-        Fired when the user picks a Pokémon from the Combobox.
-        Update the UI for that Pokémon.
-        """
+        """User picks a Pokémon from the filtered list or hits Enter on a matched item."""
         selected_name = self.search_var.get()
         self.update_ui_for_pokemon(selected_name)
+
+    def on_search_key_release(self, event):
+        """
+        As the user types, filter self.all_names by partial match
+        and update the Combobox values. Then re-set typed text
+        so it doesn't auto-select or overwrite the user's input.
+        """
+        # Save what the user typed
+        typed_text = self.search_var.get()
+
+        # Filter the full list
+        if typed_text == "":
+            # If user cleared everything, show the full list again
+            filtered = self.all_names
+        else:
+            # Partial-match filter (case-insensitive)
+            typed_text_lower = typed_text.lower()
+            filtered = [name for name in self.all_names if typed_text_lower in name.lower()]
+
+        # Update the Combobox with the filtered list
+        self.search_box["values"] = filtered
+
+        # Restore the typed text so it doesn't get overwritten
+        self.search_var.set(typed_text)
+
+        # Move the insertion cursor to the end, so user keeps typing
+        self.search_box.icursor(tk.END)
+
+        # Optionally open the drop-down to show matches immediately
+        self.search_box.event_generate("<Down>")
 
     def show_previous_pokemon(self):
         """ Decrement the current index and update the UI. """
@@ -194,10 +224,7 @@ class PokedexGUI(tk.Tk):
         self.update_ui_for_pokemon(pokemon_name)
 
     def update_ui_for_pokemon(self, pokemon_name):
-        """
-        Given a Pokémon name, look up its row in self.pokemon_data and fill in
-        the labels accordingly. Also fetch a sprite from PokéAPI and show it.
-        """
+        """Look up its row in self.pokemon_data and fill in the labels accordingly."""
         if self.pokemon_data.empty:
             return
 
@@ -207,9 +234,8 @@ class PokedexGUI(tk.Tk):
 
         row = row.iloc[0]
 
-        # Update Name
+        # Name
         self.name_label.config(text=row.get("name", "???"))
-
         # Picture placeholder
         self.picture_label.config(text=f"{row.get('name', '')} Picture")
 
@@ -222,30 +248,26 @@ class PokedexGUI(tk.Tk):
         # Pokedex entry
         self.pokedex_entry.config(text=f"Pokedex # {row.get('pokedexnumber', '')}")
 
-        # Height, Weight placeholders
+        # Height, Weight
         generation_id = row.get("generationid", "Unknown")
         region = row.get("region", "Unknown")
         self.height_entry.config(text=f"Gen ID: {generation_id}")
         self.weight_entry.config(text=f"Region: {region}")
 
-        # Single Evolution field
+        # Evolution
         evo_info = row.get("Evolution", "")
         self.evolution_label.config(text=f"Evolution: {evo_info}")
 
         # Attempt to fetch the sprite from PokeAPI
         self.fetch_pokemon_sprite(pokemon_name)
 
-        # Update the Combobox selection
+        # Also set the Combobox selection
         self.search_var.set(pokemon_name)
 
     def fetch_pokemon_sprite(self, name):
-        """
-        Fetch the Pokémon sprite from PokéAPI and display it in self.picture_label
-        without rearranging the existing layout.
-        """
-        # Attempt to transform DB name into a PokéAPI-friendly name
+        """Fetch from PokeAPI and display in self.picture_label."""
+        # Attempt to transform DB name -> PokeAPI name
         api_name = name.lower()
-        # Quick fix for spaces, periods, apostrophes, etc.
         api_name = re.sub(r"[\s\.']", "-", api_name)
 
         url = f"https://pokeapi.co/api/v2/pokemon/{api_name}"
@@ -269,11 +291,11 @@ class PokedexGUI(tk.Tk):
                 self.current_sprite = None
                 return
 
-            # Download the sprite image
+            # Download sprite
             sprite_resp = requests.get(sprite_url, timeout=5)
             sprite_bytes = sprite_resp.content
 
-            # Convert to a PIL image, then a Tkinter PhotoImage
+            # Convert to PIL image, then PhotoImage
             pil_img = Image.open(io.BytesIO(sprite_bytes))
             pil_img = pil_img.resize((120, 120), Image.Resampling.LANCZOS)
 
