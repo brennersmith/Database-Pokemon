@@ -2,13 +2,13 @@ import psycopg2
 import pandas as pd
 
 def insert_data_from_excel():
-    file_path = r'C:\Users\Spencer Roeren\Downloads\Code - Copy\Database-Pokemon\all_pokemon_data.csv'
+    file_path = r'C:\Users\adity\Desktop\GrizzHacks\Database-Pokemon\all_pokemon_data.csv'
     pokemon_df = pd.read_csv(file_path)
 
     conn = psycopg2.connect(
         dbname="Pokemon",
         user="postgres",
-        password="2905",
+        password="AdityaKurup",
         host="localhost",
         port="5432"
     )
