@@ -2,7 +2,7 @@ import psycopg2
 import pandas as pd
 
 def insert_data_from_excel():
-    file_path = r'C:\Users\adity\Desktop\GrizzHacks\Database-Pokemon\all_pokemon_data.csv'
+    file_path = r'C:\Users\adity\Desktop\GrizzHacks\Database-Pokemon\fixed_pokemon.csv'
     pokemon_df = pd.read_csv(file_path)
 
     conn = psycopg2.connect(
@@ -56,7 +56,7 @@ def insert_data_from_excel():
                 row['Name'],
                 row['Generation'],
                 # We only store "Evolution" from CSV; ignoring "Previous Evolution"
-                row['Evolution']
+                row['Evolution_to']
             ))
 
         conn.commit()

@@ -34,7 +34,7 @@ def create_table():
             PokedexNumber SERIAL PRIMARY KEY,
             name VARCHAR(50),
             GenerationID INTEGER,
-            evolution VARCHAR(200),  -- evolution column
+            evolution VARCHAR(1000),  -- evolution column
             FOREIGN KEY (GenerationID) REFERENCES Generation(GenerationID) ON DELETE SET NULL
         );
     """

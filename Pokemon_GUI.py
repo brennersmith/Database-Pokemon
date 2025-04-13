@@ -169,7 +169,7 @@ class PokedexGUI(tk.Tk):
         self.weight_entry.grid(row=1, column=1, padx=5, pady=5)
 
         # Single 'Evolution' label
-        self.evolution_label = tk.Label(self.info_frame, text="Evolution", font=medium_font)
+        self.evolution_label = tk.Label(self.info_frame, text="Evolution", font=small_font)
         self.evolution_label.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
 
     def on_search_select(self, event):
