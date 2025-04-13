@@ -1,18 +1,16 @@
 import psycopg2
 import pandas as pd
-import os
 
 print("Script started!")
 
 def insert_data_from_excel():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(base_dir, "pokemon_with_types_single_line.csv")
+    file_path = r'C:\Users\adity\Desktop\GrizzHacks\Database-Pokemon\pokemon_with_types_single_line.csv'
     pokemon_df = pd.read_csv(file_path)
 
     conn = psycopg2.connect(
         dbname="Pokemon",
         user="postgres",
-        password="1018",
+        password="AdityaKurup",
         host="localhost",
         port="5432"
     )

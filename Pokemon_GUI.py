@@ -50,7 +50,7 @@ class PokedexGUI(tk.Tk):
             conn = psycopg2.connect(
                 dbname="Pokemon",
                 user="postgres",
-                password="1018",
+                password="AdityaKurup",
                 host="localhost",
                 port="5432"
             )
@@ -169,7 +169,7 @@ class PokedexGUI(tk.Tk):
         self.weight_entry.grid(row=1, column=1, padx=5, pady=5)
 
         # Single 'Evolution' label
-        self.evolution_label = tk.Label(self.info_frame, text="Evolution", font=medium_font)
+        self.evolution_label = tk.Label(self.info_frame, text="Evolution", font=small_font)
         self.evolution_label.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
 
     def on_search_select(self, event):
@@ -242,8 +242,8 @@ class PokedexGUI(tk.Tk):
         # Types
         types_str = row.get("types", "")
         split_types = types_str.split(",") if isinstance(types_str, str) else []
-        self.type1label.config(text=split_types[0].strip() if len(split_types) >= 1 else "Type 1")
-        self.type2label.config(text=split_types[1].strip() if len(split_types) >= 2 else "Type 2")
+        self.type1label.config(text=split_types[0].strip() if len(split_types) >= 1 else "")
+        self.type2label.config(text=split_types[1].strip() if len(split_types) >= 2 else "")
 
         # Pokedex entry
         self.pokedex_entry.config(text=f"Pokedex # {row.get('pokedexnumber', '')}")
