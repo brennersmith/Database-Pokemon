@@ -55,7 +55,6 @@ def insert_data_from_excel():
                 row['Pokedex Number'],
                 row['Name'],
                 row['Generation'],
-                # We only store "Evolution" from CSV; ignoring "Previous Evolution"
                 row['Evolution_to']
             ))
 
