@@ -16,3 +16,7 @@ Using the Program:
 2. Once typed in, click the down arrow in the Combobox to open up suggestions that match your search. Select which Pokemon you want.
 3. Your searched Pokemon will give you their name, type(s), evolution, Pokedex Number, and a sprite image of the Pokemon.
 4. Use the "Next" and "Previous" arrows to navigate to the previous and next Pokedex Number, giving you the Pokemon that matches.
+
+Example:
+
+![image](https://github.com/user-attachments/assets/ddf6bf9c-845b-40aa-b2e1-a80c4075a42f)
